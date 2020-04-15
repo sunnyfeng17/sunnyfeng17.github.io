@@ -1,11 +1,22 @@
 import React from 'react';
-import { Button } from 'antd';
+import { withRouter } from 'react-router-dom';
+import NavigationBar from './components/NavigationBar';
+import Routes from './components/Routes';
+import 'antd/dist/antd.css';
 import './App.css';
 
-const App = () => (
-  <div className="App">
-    <Button type="primary">Button</Button>
-  </div>
-);
+class App extends React.Component {
+  render() {
+    const { location } = this.props
+    return (
+        <main className="App">
+          {
+            location.pathname != "/" && <NavigationBar />
+          }
+          <Routes />
+        </main>
+    );
+  }
+}
 
-export default App;
+export default withRouter(App);

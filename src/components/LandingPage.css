@@ -1,5 +1,15 @@
+.landingPage {
+    height: 100%;
+    background: linear-gradient(131deg, #fc00ff, #00dbde);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    -o-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
 .landingBox {
-    border: 2px solid #1890ff;
+    border: 2px solid #000000;
     position: absolute;
     min-height: 90%;
     min-height: 93vh; 
@@ -102,7 +112,7 @@
   
 /* Continue */
 .continueButton {
-    width: 10vw;
+    width: 18em;
 	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
 	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
 }
@@ -119,20 +129,42 @@
  * animation fade-in
  * ----------------------------------------
  */
- @-webkit-keyframes fade-in {
+@-webkit-keyframes fade-in {
     0% {
       opacity: 0;
     }
     100% {
       opacity: 1;
     }
-  }
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+}
   
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+/* Background */
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 72%}
+    50%{background-position:100% 29%}
+    100%{background-position:0% 72%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 72%}
+    50%{background-position:100% 29%}
+    100%{background-position:0% 72%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 72%}
+    50%{background-position:100% 29%}
+    100%{background-position:0% 72%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 72%}
+    50%{background-position:100% 29%}
+    100%{background-position:0% 72%}
+}

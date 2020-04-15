@@ -9,17 +9,19 @@ import { ReactComponent as ContinueSVG} from '../images/continue.svg';
 class LandingPage extends React.Component {
   render() {
     return (
-      <div className="landingBox">
-          <Row>
-            <Col span={24}>
-              <SunnySVG className="handwrittenEffect"/>
-            </Col>
-          </Row>
-          <Row>
-            <Col span={24}>
-               <Link to="/home"><ContinueSVG className="continueButton"/></Link>
-            </Col>
-          </Row>
+      <div className="landingPage">
+        <div className="landingBox">
+            <Row>
+              <Col span={24}>
+                <SunnySVG className="handwrittenEffect"/>
+              </Col>
+            </Row>
+            <Row>
+              <Col span={24}>
+                <Link to="/home"><ContinueSVG className="continueButton"/></Link>
+              </Col>
+            </Row>
+        </div>
       </div>
     );
   }

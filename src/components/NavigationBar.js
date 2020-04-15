@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { LinkedinFilled, GithubFilled } from '@ant-design/icons';
-import { Hamburger } from '../images/hamburger.png';
+import { ReactComponent as Hamburger} from '../images/hamburger.svg';
 import './NavigationBar.css';
 import sunny from '../images/sunnyfeng.png';
 
@@ -22,7 +22,7 @@ class NavigationBar extends React.Component {
       <>
         <Navbar collapseOnSelect expand="lg">
           <LinkContainer exact to="/"><img className="name" src={sunny}/></LinkContainer>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" ><Hamburger className="menu"/></Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
               {

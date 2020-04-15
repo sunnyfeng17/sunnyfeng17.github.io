@@ -33,7 +33,6 @@ a.exlink:hover {
     color: #1890ff;
 }
 
-/* .navbar-light .navbar-toggler-icon {
-    background-image: url();
-} */
-
+.menu {
+    height: 2em;
+}

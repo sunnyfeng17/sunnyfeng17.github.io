@@ -10,14 +10,10 @@ class LandingPage extends React.Component {
   render() {
     return (
       <div className="landingPage">
-        <div className="landingBox">
+        <div className="verticalCenter landingBox">
             <Row>
               <Col span={24}>
                 <SunnySVG className="handwrittenEffect"/>
-              </Col>
-            </Row>
-            <Row>
-              <Col span={24}>
                 <Link to="/home"><ContinueSVG className="continueButton"/></Link>
               </Col>
             </Row>

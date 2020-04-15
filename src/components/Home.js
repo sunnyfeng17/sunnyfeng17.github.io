@@ -4,6 +4,7 @@ import { Layout, Row, Col } from 'antd';
 import homeImg from '../images/home.jpg';
 
 const { Header, Footer, Sider, Content } = Layout;
+// This is a comment for testing
 
 class Home extends React.Component {
   render() {

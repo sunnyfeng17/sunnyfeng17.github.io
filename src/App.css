@@ -63,12 +63,25 @@ h4 {
 }
 
 @media (max-width: 768px) {
+  .verticalCenter {
+    padding: 0em 1em 0em 1em;
+    min-height: 80%;
+    min-height: 80vh; 
+    display: flex;
+    align-items: center;
+  }
+
+  .mobileSpace {
+    margin-top: -5em;
+  }
+
   .homeImg {
     height: 20em;
     width: 20em;
     border-radius: 50%;
-    margin: 3em 1em 1em 1em;
+    margin: 1em 1em 0em 1em;
   }
+
   h1 {
     font-size: 2.5em;
     text-align: center;

@@ -13,7 +13,7 @@ class Home extends React.Component {
           <Col xs={24} sm={10}>
             <img className="homeImg" src={ homeImg } />
           </Col>
-          <Col xs={24} sm={14}>
+          <Col xs={24} sm={14} className="mobileSpace">
             <h2>Hello World!</h2>
             <h3>My name is Sunny Feng</h3>
             <h4>I'm a Computer Science student who also has a passion for design!</h4>

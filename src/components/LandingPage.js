@@ -13,7 +13,7 @@ class LandingPage extends React.Component {
         <div className="verticalCenter landingBox">
             <Row>
               <Col span={24}>
-                <SunnySVG className="handwrittenEffect"/>
+                <SunnySVG className="handwrittenEffect" type="flex"/>
                 <br></br>
                 <Link to="/home"><ContinueSVG className="continueButton"/></Link>
               </Col>

@@ -13,7 +13,7 @@
     position: absolute;
     max-width: 100%;
     height: auto;
-    align-items: center;
+    justify-content: center;
     left: 2vw;
     right: 2vw;
     top: 2vw;
@@ -112,9 +112,15 @@
   
 /* Continue */
 .continueButton {
-    width: 12em;
+    width: 20em;
 	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
 	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
+}
+
+@media (max-width: 768px) {
+    .continueButton {
+        width: 10em;
+    }
 }
 
 /* ----------------------------------------------

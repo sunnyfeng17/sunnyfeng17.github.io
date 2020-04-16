@@ -9,11 +9,11 @@ class Home extends React.Component {
   render() {
     return (
       <Content>
-        <Row className="verticalCenter">
-          <Col xs={24} sm={10}>
+        <Row className="verticalCenter" type="flex">
+          <Col xs={24} sm={10} className="mobileSpace">
             <img className="homeImg" src={ homeImg } />
           </Col>
-          <Col xs={24} sm={14} className="mobileSpace">
+          <Col xs={24} sm={14}>
             <h2>Hello World!</h2>
             <h3>My name is Sunny Feng</h3>
             <h4>I'm a Computer Science student who also has a passion for design!</h4>

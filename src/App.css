@@ -21,6 +21,7 @@ h1 {
   font-size: 4em;
   color: #74C1FF;
   padding-top: 0.5em;
+  padding-bottom: 0.5em;
   -webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
         animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -62,17 +63,21 @@ h4 {
   padding: 1em;
 }
 
+.photography {
+  width: 28em;
+  background-color: #ffffff;
+  border-radius: 0.5em;
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 2em;
+}
+
 @media (max-width: 768px) {
   .verticalCenter {
     padding: 0em 1em 0em 1em;
-    min-height: 80%;
-    min-height: 80vh; 
-    display: flex;
-    align-items: center;
   }
 
   .mobileSpace {
-    margin-top: -10em;
+    margin-bottom: -10em;
   }
 
   .homeImg {
@@ -83,8 +88,15 @@ h4 {
     padding: 0em;
   }
 
+  .photography {
+    width: 90%;
+  }
+
   h1 {
     font-size: 2.5em;
+    color: #ffffff;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     text-align: center;
   }
   

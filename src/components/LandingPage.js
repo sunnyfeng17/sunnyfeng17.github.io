@@ -14,6 +14,7 @@ class LandingPage extends React.Component {
             <Row>
               <Col span={24}>
                 <SunnySVG className="handwrittenEffect"/>
+                <br></br>
                 <Link to="/home"><ContinueSVG className="continueButton"/></Link>
               </Col>
             </Row>

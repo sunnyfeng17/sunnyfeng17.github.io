@@ -22,7 +22,7 @@ class NavigationBar extends React.Component {
       <>
         <Navbar collapseOnSelect expand="lg">
           <LinkContainer exact to="/"><img className="name" src={sunny}/></LinkContainer>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" ><Hamburger className="menu"/></Navbar.Toggle>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{borderColor: "#252525", padding: "0"}} ><Hamburger className="menu"/></Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
               {

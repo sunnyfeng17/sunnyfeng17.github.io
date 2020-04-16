@@ -9,7 +9,7 @@ import { ReactComponent as ContinueSVG} from '../images/continue.svg';
 class LandingPage extends React.Component {
   render() {
     return (
-      <div className="landingPage">
+      <div className="noScroll landingPage">
         <div className="verticalCenter landingBox">
             <Row>
               <Col span={24}>

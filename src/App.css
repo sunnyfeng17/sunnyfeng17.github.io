@@ -7,6 +7,10 @@
   overflow-x: hidden;
 }
 
+.noScroll {
+  overflow: hidden;
+}
+
 .verticalCenter {
   padding: 0em 2em 0em 2em;
   min-height: 80%;

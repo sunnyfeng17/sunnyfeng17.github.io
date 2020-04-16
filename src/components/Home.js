@@ -8,7 +8,7 @@ const { Header, Footer, Sider, Content } = Layout;
 class Home extends React.Component {
   render() {
     return (
-      <Content>
+      <Content class="noSroll">
         <Row className="verticalCenter">
           <Col xs={24} sm={10}>
             <img className="homeImg" src={ homeImg } />

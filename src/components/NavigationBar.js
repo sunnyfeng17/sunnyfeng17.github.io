@@ -6,13 +6,14 @@ import { ReactComponent as Hamburger} from '../images/hamburger.svg';
 import './NavigationBar.css';
 import sunny from '../images/sunnyfeng.png';
 
-class NavigationBar extends React.Component {
+class NavigationBar extends React.Component {  
   render() {
     const links = [
       { link: "/home", text:"Home" },
       { link: "/projects/", text:"Projects" },
       { link: "/photography/", text:"Photography" },
-      { link: "/playground/", text:"Playground" }
+      { link: "/playground/", text:"Playground" },
+      { link: "/contact/", text:"Contact" }
     ];
     const exlinks = [
       { link: "//www.linkedin.com/in/sunnyfeng617/", text: <LinkedinFilled />},
@@ -20,9 +21,9 @@ class NavigationBar extends React.Component {
     ]
     return (
       <>
-        <Navbar scrolling sticky="top" collapseOnSelect expand="lg">
+        <Navbar sticky="top" collapseOnSelect expand="lg">
           <LinkContainer exact to="/"><img className="name" src={sunny}/></LinkContainer>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{borderColor: "None", padding: "0"}} ><Hamburger className="menu"/></Navbar.Toggle>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{borderColor: "#252525", padding: "0"}}><Hamburger className="menu"/></Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
               {

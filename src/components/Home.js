@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Layout, Row, Col } from 'antd';
 import homeImg from '../images/home.jpg';
 
+import './Home.css';
+
 const { Header, Footer, Sider, Content } = Layout;
 
 class Home extends React.Component {

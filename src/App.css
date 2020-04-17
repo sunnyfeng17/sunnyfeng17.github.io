@@ -1,272 +1,200 @@
 @import '~antd/dist/antd.css';
-
 .App {
-  text-align: center;
-  height: 100vh;
-  background-color: #252525;
-  overflow-x: hidden;
+    text-align: center;
+    height: 100vh;
+    background-color: #252525;
+    overflow-x: hidden;
 }
 
 .verticalCenter {
-  padding: 0em 2em 0em 2em;
-  min-height: 80%;
-  min-height: 80vh; 
-  display: flex;
-  align-items: center;
+    padding: 0em 2em 0em 2em;
+    min-height: 80%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
 }
 
+
 /* Headings */
+
 h1 {
-  font-weight: 700;
-  font-size: 4em;
-  color: #74C1FF;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+    font-weight: 700;
+    font-size: 4em;
+    color: #74C1FF;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 h2 {
-  font-weight: 700;
-  font-size: 5em;
-  text-align: left;
-  color: #74C1FF;
-  padding: 0em 1vw 0em 1vw;
-  -webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-        animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    font-weight: 700;
+    font-size: 5em;
+    text-align: left;
+    color: #74C1FF;
+    padding: 0em 1vw 0em 1vw;
+    -webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 h3 {
-  font-weight: 700;
-  font-size: 4em;
-  text-align: left;
-  color: #74C1FF;
-  padding: 0em 1vw 0em 1vw;
-  -webkit-animation: text-focus-in1 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-        animation: text-focus-in1 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    font-weight: 700;
+    font-size: 4em;
+    text-align: left;
+    color: #74C1FF;
+    padding: 0em 1vw 0em 1vw;
+    -webkit-animation: text-focus-in1 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in1 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 h4 {
-  font-weight: 400;
-  font-size: 3em;
-  text-align: left;
-  color: #74C1FF;
-  padding: 0em 1vw 0em 1vw;
-  -webkit-animation: text-focus-in2 1.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-        animation: text-focus-in2 1.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    font-weight: 400;
+    font-size: 3em;
+    text-align: left;
+    color: #74C1FF;
+    padding: 0em 1vw 0em 1vw;
+    -webkit-animation: text-focus-in2 1.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in2 1.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
-/* Home Page */
-.homeImg {
-  height: 25em;
-  border-radius: 50%;
-  padding: 1em;
-}
-
-/* Photography Page */
-.photography {
-  width: 28em;
-  background-color: #ffffff;
-  border-radius: 0.5em;
-  padding: 1em 1em 1em 1em;
-  margin-bottom: 2em;
-}
-
-/* Contact Page */
-.formBox {
-  height: auto;
-  width: 100%;
-}
-
-.form-group {
-  align-content: center;
-}
-
-.form-control {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.messageBox {
-  height: 15em !important;
-}
-
-.btn-secondary {
-  width: 10em;
-  height: 3em;
-  color: #252525;
-  background-color: #ffffff;
-}
-
-.btn-secondary:hover {
-  color: #ffffff;
-  background-color: #74C1FF;
-}
-
-.alert {
-  margin: 1em auto auto auto;
-  width: 50%
-}
 
 /* Mobile Sizing */
+
 @media (max-width: 768px) {
-  .verticalCenter {
-    padding: 0em 1em 0em 1em;
-  }
-
-  .mobileSpace {
-    margin-bottom: -10em;
-  }
-
-  .homeImg {
-    height: 20em;
-    width: 20em;
-    border-radius: 50%;
-    margin: -2em 1em 0em 1em;
-    padding: 0em;
-  }
-
-  .photography {
-    width: 90%;
-  }
-
-  .form-control {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .messageBox {
-    height: 10em !important;
-  }
-
-  .alert {
-    margin: 1em auto auto auto;
-    width: 80%
-  }
-
-  h1 {
-    font-size: 2.5em;
-    color: #ffffff;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 2.5em;
-    text-align: center;
-  }
-  
-  h3 {
-    font-size: 2em;
-    text-align: center;
-  }
-  
-  h4 {
-    font-size: 1.5em;
-    text-align: center;
-  }
+    .verticalCenter {
+        padding: 0em 1em 0em 1em;
+    }
+    h1 {
+        font-size: 2.5em;
+        color: #ffffff;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        text-align: center;
+    }
+    h2 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+    h3 {
+        font-size: 2em;
+        text-align: center;
+    }
+    h4 {
+        font-size: 1.5em;
+        text-align: center;
+    }
 }
+
 
 /* For H1 */
+
 @-webkit-keyframes text-focus-in {
     0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
     }
     100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 0.8;
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 0.8;
     }
-  }
-  @keyframes text-focus-in {
+}
+
+@keyframes text-focus-in {
     0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
     }
     100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 0.8;
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 0.8;
     }
-  }
+}
+
 
 /* For H2 */
+
 @-webkit-keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 0.8;
-  }
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 0.8;
+    }
 }
+
 @keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 0.8;
-  }
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 0.8;
+    }
 }
+
 
 /* For H3 */
+
 @-webkit-keyframes text-focus-in1 {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 0.5;
-  }
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 0.5;
+    }
 }
+
 @keyframes text-focus-in1 {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 0.5;
-  }
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 0.5;
+    }
 }
+
 
 /* For H4 */
+
 @-webkit-keyframes text-focus-in2 {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 0.3;
-  }
-}
-@keyframes text-focus-in2 {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 0.3;
-  }
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 0.3;
+    }
 }
 
+@keyframes text-focus-in2 {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 0.3;
+    }
+}

@@ -3,7 +3,9 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { LinkedinFilled, GithubFilled } from '@ant-design/icons';
 import { ReactComponent as Hamburger} from '../images/hamburger.svg';
+
 import './NavigationBar.css';
+
 import sunny from '../images/sunnyfeng.png';
 
 class NavigationBar extends React.Component {  

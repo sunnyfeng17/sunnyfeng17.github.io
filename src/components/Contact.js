@@ -2,6 +2,8 @@ import React from "react";
 import * as emailjs from 'emailjs-com';
 import { Button, Form, FormGroup, Alert, Input } from 'reactstrap';
 
+import './Contact.css';
+
 // Work on success message
 // function Success(props) {
 //   return <Alert color="success">Message successfully sent!</Alert>;

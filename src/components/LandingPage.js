@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Layout, Row, Col } from 'antd';
+
 import './LandingPage.css';
 
 import { ReactComponent as SunnySVG } from '../images/sunnyfeng.svg';

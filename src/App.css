@@ -22,8 +22,6 @@ h1 {
   color: #74C1FF;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  -webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-        animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 h2 {
@@ -63,6 +61,7 @@ h4 {
   padding: 1em;
 }
 
+/* Photography Page */
 .photography {
   width: 28em;
   background-color: #ffffff;
@@ -71,6 +70,43 @@ h4 {
   margin-bottom: 2em;
 }
 
+/* Contact Page */
+.formBox {
+  height: auto;
+  width: 100%;
+}
+
+.form-group {
+  align-content: center;
+}
+
+.form-control {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.messageBox {
+  height: 15em !important;
+}
+
+.btn-secondary {
+  width: 10em;
+  height: 3em;
+  color: #252525;
+  background-color: #ffffff;
+}
+
+.btn-secondary:hover {
+  color: #ffffff;
+  background-color: #74C1FF;
+}
+
+.alert {
+  margin: 1em auto auto auto;
+  width: 50%
+}
+
+/* Mobile Sizing */
 @media (max-width: 768px) {
   .verticalCenter {
     padding: 0em 1em 0em 1em;
@@ -90,6 +126,20 @@ h4 {
 
   .photography {
     width: 90%;
+  }
+
+  .form-control {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .messageBox {
+    height: 10em !important;
+  }
+
+  .alert {
+    margin: 1em auto auto auto;
+    width: 80%
   }
 
   h1 {
@@ -219,3 +269,4 @@ h4 {
     opacity: 0.3;
   }
 }
+

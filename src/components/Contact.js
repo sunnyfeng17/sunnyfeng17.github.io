@@ -1,17 +1,9 @@
 import React from "react";
 import * as emailjs from 'emailjs-com';
 import { Button, Form, FormGroup, Alert, Input } from 'reactstrap';
+import Snackbar from '@material-ui/core/Snackbar';
 
 import './Contact.css';
-
-// Work on success message
-// function Success(props) {
-//   return <Alert color="success">Message successfully sent!</Alert>;
-// }
-
-// function Fail(props) {
-//   return <Alert color="danger">Message not sent, please try again later!</Alert>;
-// }
 
 class Contact extends React.Component {
   state = {
@@ -39,12 +31,12 @@ class Contact extends React.Component {
       'user_SzR5TiI2bJmlmagEd5eG5'
      )
      .then((response) => {
-        alert("Message Sent!")
+        alert("Message sent!")
         this.resetForm()
-      //   return Success()
+        // return <Alert severity="success">Message sent!</Alert>
       }, (err) => {
         alert("Message not sent, try again later!")
-      //   return Fail()
+        // return <Alert severity="error">Message not sent, try again later!</Alert>
       });
      
   }

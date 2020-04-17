@@ -3,11 +3,23 @@
     background-color: #ffffff;
     border-radius: 0.5em;
     padding: 1em 1em 1em 1em;
-    margin-bottom: 2em;
+    margin: 0.5em 0.5em 2em 0.5em;
+}
+
+.gallery {
+  width: 90%;
+  margin: auto;
+}
+
+.photographyRow {
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
   .photography {
-    width: 90%;
+    max-width: 90%;
+  }
+  .gallery {
+    width: 100%;
   }
 }

@@ -13,15 +13,17 @@ class Photography extends React.Component {
       <>
       <Content>
         <h1>Photography</h1>
-        <Row>
-          { 
-            PhotographyImages.map((key) => {
-              return (
-                <Col xs={24} sm={8} ><Fade top><img src={key.src} alt={key.title} className="photography"/></Fade></Col>
-              )
-            })
-          }
-        </Row>
+        <div className="gallery">
+          <Row className="photographyRow">
+            { 
+              PhotographyImages.map((key) => {
+                return (
+                  <Col xs={24} sm={8} className="photographyCol"><Fade top><img src={key.src} alt={key.title} className="photography"/></Fade></Col>
+                )
+              })
+            }
+          </Row>
+        </div>
       </Content>
       </>
     );

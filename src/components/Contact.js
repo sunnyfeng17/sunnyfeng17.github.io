@@ -57,6 +57,7 @@ class Contact extends React.Component {
     return (
       <>
           <h1>Leave a message!</h1>
+          <p className="contactText">I'd love to hear from you, so fill in the form and I'll get back to you! Alternatively you can contact me on <a className="linkedinLink" href="//www.linkedin.com/in/sunnyfeng617/">LinkedIn</a>!</p>
           <Form onSubmit={this.handleSubmit.bind(this)} className="formBox">
             <FormGroup controlId="formBasicEmail">
               {/* <Label className="formLabel">Email address: </Label> */}

@@ -24,7 +24,7 @@ class Projects extends React.Component {
     return (
       <Content>
         <h1>Projects</h1>
-        <Carousel>
+        <Carousel pause="hover">
           <Carousel.Item>
             <img className="projectsImg landscapeImg" src={ SunnyFeng1 } /><img className="projectsImg hideImgM" src={ SunnyFeng2 } /><img className="projectsImg landscapeImg hideImgD" src={ SunnyFeng3 } />
             <Carousel.Caption>

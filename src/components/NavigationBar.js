@@ -14,7 +14,8 @@ class NavigationBar extends React.Component {
       { link: "/home", text:"Home" },
       { link: "/projects/", text:"Projects" },
       { link: "/photography/", text:"Photography" },
-      { link: "/playground/", text:"Playground" },
+      // { link: "/playground/", text:"Playground" },
+      { link: "/resume/", text:"Resume" },
       { link: "/contact/", text:"Contact" }
     ];
     const exlinks = [

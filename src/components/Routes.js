@@ -6,6 +6,7 @@ import Home from './Home';
 import Projects from './Projects';
 import Photography from './Photography';
 import Playground from './Playground';
+import Resume from './Resume';
 import Contact from './Contact';
 
 class Routes extends React.Component {
@@ -17,6 +18,7 @@ class Routes extends React.Component {
                 <Route path="/projects" component={ Projects } />
                 <Route path="/photography" component={ Photography } />
                 <Route path="/playground" component={ Playground } />
+                <Route path="/resume" component={ Resume } />
                 <Route path="/contact" component={ Contact } />
             </Switch>
         );

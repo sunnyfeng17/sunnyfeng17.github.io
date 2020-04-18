@@ -15,8 +15,10 @@
 }
 
 .constructionBox{
-    margin-left: 1em;
-    margin-right: 1em;
+    padding: 4em 1em 2em 1em;
+    min-height: 80%;
+    min-height: 80vh;
+    align-items: center;
 }
 
 /* Headings */

@@ -1,0 +1,13 @@
+.site-card-wrapper {
+    justify-self: center;
+    padding: 2em;
+}
+
+.resumeCard {
+    justify-content: center;
+    
+}
+
+@media (max-width: 768px) {
+
+}

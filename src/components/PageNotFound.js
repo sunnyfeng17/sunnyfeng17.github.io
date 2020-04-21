@@ -19,7 +19,7 @@ class PageNotFound extends React.Component {
                         
                         <h2>Uh oh! <br />
                         The page you're looking for doesn't exist or can't be found!</h2>
-                        <p style={{fontSize: "2em"}}>I'll keep looking for it, but in the meantime return <Link to="/tardis">here!</Link> </p>
+                        <p style={{fontSize: "1.5em", paddingLeft: "1em", paddingRight: "1em"}}>I'll keep looking for it, but in the meantime return <Link to="/tardis">here!</Link> </p>
                     </Col>
                 </Row>
             </Content>

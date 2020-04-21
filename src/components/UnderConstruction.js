@@ -13,8 +13,7 @@ class UnderConstruction extends React.Component {
         return (
             <Content>
                 <div className="constructionBox">
-                    <h3 style={{textAlign: "center"}}>This page is currently under construction!</h3>
-                    <h3 style={{textAlign: "center"}}>Check back later for updates!</h3>
+                    <h1 style={{textAlign: "center"}}>This page is currently under construction! <br /> Check back later for updates!</h1>
                     <Link to="/404"> <img className="constructionImg" src={underConstruction}/></Link>
                     <p>Psss look at me! If you have time to waste click on me ^</p>
                 </div>

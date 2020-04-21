@@ -39,7 +39,7 @@ class Projects extends React.Component {
             <Carousel.Caption>
               <h5>MoneyBusters</h5>
               <p>A webapp built over 2 days for Summer of Tech's Create Camp (2019).</p>
-              <p className="italics">I worked with 3 developers, a designer and a mentor to develop a webapp to manage student finances. Users are prompted enter their expenses and income, then they are able to view their spending allowance as well as trends in their spending. The webapp integrated the Pocket Smith API and was deployed on Heroku.</p>
+              <p className="italics">I worked with 3 developers, a designer and a mentor to develop a webapp to manage student finances. Users are prompted to enter their expenses and income, then they are able to view their spending allowance as well as trends in their spending. The webapp integrated the Pocket Smith API and was deployed on Heroku.</p>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -49,7 +49,7 @@ class Projects extends React.Component {
               <h5>Scammr</h5>
               <p>An android app built over 2 days for Dev's 48 hour hackathon (2019).</p>
               <p>Theme: Build your own startup.</p>
-              <p className="italics">I worked with 3 students to develop an android app to detect whether an incoming call is a scam or not. The app used keyword detection, to generate a risk score, to alert the user through phone vibrations.</p>
+              <p className="italics">I worked with 3 students to develop an android app to detect whether an incoming call is a scam or not. The app used keyword detection to generate a risk score, to alert the user through phone vibrations.</p>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -68,7 +68,7 @@ class Projects extends React.Component {
             <Carousel.Caption>
               <h5>Cheese and Crackers</h5>
               <p>A website built over 2 days for AUCS's Hackathon 101 (2018).</p>
-              <p>Theme: Students have 99 problems but we can only solve one,</p>
+              <p>Theme: Students have 99 problems but we can only solve one.</p>
               <p className="italics">I worked with 3 students to develop a website with the aim to help students receive help. We used the Google API for the login to link students and tutors.</p>
             </Carousel.Caption>
           </Carousel.Item>

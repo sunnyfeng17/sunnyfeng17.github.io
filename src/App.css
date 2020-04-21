@@ -98,8 +98,6 @@ h5 {
     text-align: center;
     color: #74C1FF;
     padding: 0em 1vw 0em 1vw;
-    -webkit-animation: text-focus-in1 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation: text-focus-in1 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 h6 {

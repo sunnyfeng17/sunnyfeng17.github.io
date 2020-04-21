@@ -8,7 +8,13 @@ import './NavigationBar.css';
 import { ReactComponent as Hamburger} from '../images/hamburger.svg';
 import sunny from '../images/sunnyfeng.png';
 
-class NavigationBar extends React.Component {  
+class NavigationBar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      collapsed: true};
+  }
+
   render() {
     const links = [
       { link: "/home", text:"Home" },
@@ -22,6 +28,7 @@ class NavigationBar extends React.Component {
       { link: "//www.linkedin.com/in/sunnyfeng617/", text: <LinkedinFilled />},
       { link: "//github.com/sunnyfeng17", text: <GithubFilled />}
     ]
+
     return (
       <>
         <Navbar sticky="top" collapseOnSelect expand="lg">

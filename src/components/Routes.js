@@ -8,6 +8,9 @@ import Photography from './Photography';
 import Playground from './Playground';
 import Resume from './Resume';
 import Contact from './Contact';
+import StartEasterEgg from './StartEasterEgg';
+import SpaceTravel from './SpaceTravel';
+import PageNotFound from './PageNotFound';
 
 class Routes extends React.Component {
     render() {
@@ -20,6 +23,9 @@ class Routes extends React.Component {
                 <Route path="/playground" component={ Playground } />
                 <Route path="/resume" component={ Resume } />
                 <Route path="/contact" component={ Contact } />
+                <Route path="/tardis" component={ StartEasterEgg } />
+                <Route path="/spacetravel" component={ SpaceTravel } />
+                <Route path="*" component={ PageNotFound } />
             </Switch>
         );
     }

@@ -2,10 +2,10 @@ import React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { LinkedinFilled, GithubFilled } from '@ant-design/icons';
-import { ReactComponent as Hamburger} from '../images/hamburger.svg';
 
 import './NavigationBar.css';
 
+import { ReactComponent as Hamburger} from '../images/hamburger.svg';
 import sunny from '../images/sunnyfeng.png';
 
 class NavigationBar extends React.Component {  
@@ -14,7 +14,7 @@ class NavigationBar extends React.Component {
       { link: "/home", text:"Home" },
       { link: "/projects/", text:"Projects" },
       { link: "/photography/", text:"Photography" },
-      // { link: "/playground/", text:"Playground" },
+      { link: "/playground/", text:"Playground" },
       { link: "/resume/", text:"Resume" },
       { link: "/contact/", text:"Contact" }
     ];

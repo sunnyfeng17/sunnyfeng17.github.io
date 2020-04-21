@@ -117,6 +117,10 @@
 	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
 }
 
+.continueButton:hover {
+    cursor: url('../images/doIt.png'), auto;
+}
+
 @media (max-width: 768px) {
     .continueButton {
         width: 10em;

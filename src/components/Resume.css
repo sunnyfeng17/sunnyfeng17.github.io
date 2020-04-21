@@ -1,13 +1,15 @@
-.site-card-wrapper {
-    justify-self: center;
-    padding: 2em;
+.resumeImg {
+    height: 60em;
+    padding-bottom: 3em;
 }
 
-.resumeCard {
-    justify-content: center;
-    
+.resumeDownload {
+    color: #ffffff;
 }
 
 @media (max-width: 768px) {
+    .resumeImg {
+        height: 40em;
+    }
 
 }

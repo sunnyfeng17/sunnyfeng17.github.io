@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { Layout, Row, Col } from 'antd';
 import Carousel from 'react-bootstrap/Carousel';
 

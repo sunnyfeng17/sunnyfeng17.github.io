@@ -1,7 +1,6 @@
-import React from "react";
+import React from 'react';
 import * as emailjs from 'emailjs-com';
 import { Button, Form, FormGroup, Alert, Input } from 'reactstrap';
-import Snackbar from '@material-ui/core/Snackbar';
 
 import './Contact.css';
 

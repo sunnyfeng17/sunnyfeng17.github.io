@@ -1,30 +1,20 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import PhotographyImages from './PhotographyImages'
 import { Layout, Row, Col } from 'antd';
 
 import './Photography.css';
 
-import photographyImg  from '../images/photography.jpg'
+import PhotographyImages from './PhotographyImages'
 
-const { Header, Footer, Sider, Content } = Layout;
+const {Content } = Layout;
 
 class Photography extends React.Component {
   render() {
     return (
       <>
-      <Content>
+      <Content className="pushDown">
         <h1>Photography</h1>
         <div className="gallery">
-          {/* <Row>
-            <Col xs={24} sm={14}>
-              <p>“The camera sees more than the eye, so why not make use of it?” – Edward Weston</p>
-              <p></p>
-            </Col>
-            <Col xs={24} sm={10} className="mobileSpace">
-              <img className="photographyImg" src={ photographyImg } />
-            </Col>
-          </Row> */}
           <Row className="photographyRow">
             { 
               PhotographyImages.map((key) => {

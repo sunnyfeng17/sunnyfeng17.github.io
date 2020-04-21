@@ -1,5 +1,15 @@
 .navbar {
     background-color: #252525;
+    position: fixed !important;
+    top: 0 !important;
+    padding-bottom: 0.5em;
+    width: 100%;
+}
+
+.name {
+    margin: 1.5em 2em 1em 1.5em;
+    height: 3em;
+    cursor: pointer;
 }
 
 .nav-item {
@@ -7,12 +17,6 @@
     color: #ffffff;
     padding-bottom: 1vw;
     padding: 1em 1em 0.5em 1em;
-    cursor: pointer;
-}
-
-.name {
-    margin: 1.5em 2em 1em 1.5em;
-    height: 3em;
     cursor: pointer;
 }
 
@@ -27,7 +31,7 @@
 }
 
 a.exlink {
-    margin-top: -0.5vw;
+    padding-bottom: 0.5em;
     margin-right: 2vw;
     color: #ffffff;
     font-size: 2em;

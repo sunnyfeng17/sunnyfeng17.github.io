@@ -1,8 +1,11 @@
 import React from 'react';
+import { Layout } from 'antd';
 import * as emailjs from 'emailjs-com';
-import { Button, Form, FormGroup, Alert, Input } from 'reactstrap';
+import { Button, Form, FormGroup, Input } from 'reactstrap';
 
 import './Contact.css';
+
+const { Content } = Layout;
 
 class Contact extends React.Component {
   state = {
@@ -32,10 +35,8 @@ class Contact extends React.Component {
      .then((response) => {
         alert("Message sent!")
         this.resetForm()
-        // return <Alert severity="success">Message sent!</Alert>
       }, (err) => {
         alert("Message not sent, try again later!")
-        // return <Alert severity="error">Message not sent, try again later!</Alert>
       });
      
   }
@@ -55,11 +56,11 @@ class Contact extends React.Component {
   render() {
     return (
       <>
+        <Content className="pushDown">
           <h1>Leave a message!</h1>
           <p className="contactText">I'd love to hear from you, so fill in the form and I'll get back to you! Alternatively you can contact me on <a className="linkedinLink" href="//www.linkedin.com/in/sunnyfeng617/">LinkedIn</a>!</p>
           <Form onSubmit={this.handleSubmit.bind(this)} className="formBox">
             <FormGroup controlId="formBasicEmail">
-              {/* <Label className="formLabel">Email address: </Label> */}
               <Input
                 type="email"
                 name="email"
@@ -71,7 +72,6 @@ class Contact extends React.Component {
               />
             </FormGroup>
 <           FormGroup controlId="formBasicName">
-              {/* <Label className="formLabel">Name: </Label> */}
               <Input
                 type="text"
                 name="name"
@@ -83,7 +83,6 @@ class Contact extends React.Component {
               />
             </FormGroup>
             <FormGroup controlId="formBasicSubject">
-              {/* <Label className="formLabel">Subject: </Label> */}
               <Input
                 type="text"
                 name="subject"
@@ -95,7 +94,6 @@ class Contact extends React.Component {
               />
             </FormGroup>
 <           FormGroup controlId="formBasicMessage">
-              {/* <Label className="formLabel">Message: </Label> */}
               <Input
                 type="textarea"
                 name="message"
@@ -110,6 +108,7 @@ class Contact extends React.Component {
               Submit
             </Button>
           </Form> 
+        </Content>
       </>
     )
   }

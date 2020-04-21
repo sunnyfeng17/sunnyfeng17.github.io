@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Layout, Row, Col } from 'antd';
+// import { Link } from 'react-router-dom';
+import { Layout, Row} from 'antd';
 
 import './EasterEgg.css'
 
 import tardisTravel from '../images/tardistravel.jpg';
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Content } = Layout;
 
 
 class WrongHome extends React.Component {
@@ -14,7 +14,7 @@ class WrongHome extends React.Component {
         return (
             <Content>
                 <Row style={{overflow: "hidden"}}>
-                    <img style={{height: "50em"}} src={tardisTravel} />
+                    <img style={{width: "108em"}} src={tardisTravel} alt="Tardis"/>
                 </Row>
             </Content>
         );

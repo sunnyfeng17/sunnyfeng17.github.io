@@ -1,19 +1,19 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Layout, Row, Col } from 'antd';
-import homeImg from '../images/home.jpg';
 
 import './Home.css';
 
-const { Header, Footer, Sider, Content } = Layout;
+import homeImg from '../images/home.jpg';
+
+const { Content } = Layout;
 
 class Home extends React.Component {
   render() {
     return (
-      <Content>
+      <Content className="pushHome">
         <Row className="verticalCenter" type="flex">
           <Col xs={24} sm={10} className="mobileSpace">
-            <img className="homeImg" src={ homeImg } />
+            <img className="homeImg" src={ homeImg } alt="Sunny"/>
           </Col>
           <Col xs={24} sm={14}>
             <h2>Hello World!</h2>
@@ -25,6 +25,5 @@ class Home extends React.Component {
     );
   }
 }
-
 
 export default Home;

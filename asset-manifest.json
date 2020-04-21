@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.778432cf.chunk.css",
-    "main.js": "/static/js/main.cbd37e37.chunk.js",
-    "main.js.map": "/static/js/main.cbd37e37.chunk.js.map",
+    "main.css": "/static/css/main.7d74eb29.chunk.css",
+    "main.js": "/static/js/main.4e9678f5.chunk.js",
+    "main.js.map": "/static/js/main.4e9678f5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a1a29272.js",
     "runtime-main.js.map": "/static/js/runtime-main.a1a29272.js.map",
-    "static/css/2.f3f0ba98.chunk.css": "/static/css/2.f3f0ba98.chunk.css",
-    "static/js/2.2fdc631a.chunk.js": "/static/js/2.2fdc631a.chunk.js",
-    "static/js/2.2fdc631a.chunk.js.map": "/static/js/2.2fdc631a.chunk.js.map",
+    "static/css/2.4af70dfe.chunk.css": "/static/css/2.4af70dfe.chunk.css",
+    "static/js/2.6af4d9d1.chunk.js": "/static/js/2.6af4d9d1.chunk.js",
+    "static/js/2.6af4d9d1.chunk.js.map": "/static/js/2.6af4d9d1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a5ddde59f41a513757f546c44b463546.js": "/precache-manifest.a5ddde59f41a513757f546c44b463546.js",
+    "precache-manifest.4d91c4ee32163d2498c4ec63bec45fd2.js": "/precache-manifest.4d91c4ee32163d2498c4ec63bec45fd2.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.f3f0ba98.chunk.css.map": "/static/css/2.f3f0ba98.chunk.css.map",
-    "static/css/main.778432cf.chunk.css.map": "/static/css/main.778432cf.chunk.css.map",
-    "static/js/2.2fdc631a.chunk.js.LICENSE.txt": "/static/js/2.2fdc631a.chunk.js.LICENSE.txt",
+    "static/css/2.4af70dfe.chunk.css.map": "/static/css/2.4af70dfe.chunk.css.map",
+    "static/css/main.7d74eb29.chunk.css.map": "/static/css/main.7d74eb29.chunk.css.map",
+    "static/js/2.6af4d9d1.chunk.js.LICENSE.txt": "/static/js/2.6af4d9d1.chunk.js.LICENSE.txt",
     "static/media/IMG_1.JPG": "/static/media/IMG_1.5820fe02.JPG",
     "static/media/IMG_10.JPG": "/static/media/IMG_10.135582cd.JPG",
     "static/media/IMG_11.JPG": "/static/media/IMG_11.91a4078f.JPG",
@@ -48,7 +48,6 @@
     "static/media/hamburger.4c2285b8.svg": "/static/media/hamburger.4c2285b8.svg",
     "static/media/home.jpg": "/static/media/home.f0ddc407.jpg",
     "static/media/looking.png": "/static/media/looking.093a96c3.png",
-    "static/media/photography.jpg": "/static/media/photography.c1c67fd8.jpg",
     "static/media/scammrSlide1.JPG": "/static/media/scammrSlide1.c38202c2.JPG",
     "static/media/scammrSlide2.JPG": "/static/media/scammrSlide2.9272e59f.JPG",
     "static/media/sunnyfeng-resume.jpg": "/static/media/sunnyfeng-resume.9b27150e.jpg",
@@ -62,9 +61,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a1a29272.js",
-    "static/css/2.f3f0ba98.chunk.css",
-    "static/js/2.2fdc631a.chunk.js",
-    "static/css/main.778432cf.chunk.css",
-    "static/js/main.cbd37e37.chunk.js"
+    "static/css/2.4af70dfe.chunk.css",
+    "static/js/2.6af4d9d1.chunk.js",
+    "static/css/main.7d74eb29.chunk.css",
+    "static/js/main.4e9678f5.chunk.js"
   ]
 }

@@ -33,3 +33,16 @@
     }
 
 }
+
+@media (min-width: 768px) and (max-width: 1024px){ 
+    .landscapeImg {
+        width: 25em;
+        height: auto;
+        margin: 1em auto 1em auto;
+        display: block;
+    }
+    .portraitImg {
+        padding-top: 3em;
+        height: 25em;
+    }
+}

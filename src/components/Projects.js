@@ -35,7 +35,7 @@ class Projects extends React.Component {
           </Carousel.Item>
 
           <Carousel.Item>
-            <img className="projectsImg" src={ MoneyBusters1 } /><img className="projectsImg hideImgM" src={ MoneyBusters2 } /><img className="projectsImg" src={ MoneyBusters3 } />
+            <img className="projectsImg portraitImg" src={ MoneyBusters1 } /><img className="projectsImg hideImgM" src={ MoneyBusters2 } /><img className="projectsImg portraitImg" src={ MoneyBusters3 } />
             <Carousel.Caption>
               <h5>MoneyBusters</h5>
               <p>A webapp built over 2 days for Summer of Tech's Create Camp (2019).</p>

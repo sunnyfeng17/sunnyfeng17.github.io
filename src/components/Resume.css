@@ -11,5 +11,8 @@
     .resumeImg {
         height: 40em;
     }
+    .resumeDownload {
+        color: #1890ff;
+    }
 
 }

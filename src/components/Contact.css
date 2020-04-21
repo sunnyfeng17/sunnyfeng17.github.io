@@ -54,8 +54,7 @@
     .messageBox {
         height: 10em !important;
     }
-    /* .alert {
-        margin: 1em auto auto auto;
-        width: 80%
-    } */
+    .linkedinLink {
+        color: #1890ff;
+    }
 }

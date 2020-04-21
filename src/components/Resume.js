@@ -19,15 +19,5 @@ class Projects extends React.Component {
       );
     }
 }
-
-
-
-// class Projects extends React.Component {
-//   render() {
-//       return (
-//           <UnderConstruction />       
-//     );
-//   }
-// }
   
 export default Projects;

@@ -9,7 +9,7 @@ const { Content } = Layout;
 class PageNotFound extends React.Component {
     render(){
         return (
-            <Content className="pushDown">
+            <Content>
                 <Row>
                     <Col xs={24} sm={6}>
                         <img className="pageNotFoundImg" src={looking} alt="bitmoji with magnifying glass"/>

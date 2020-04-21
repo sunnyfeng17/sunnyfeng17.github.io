@@ -13,6 +13,8 @@ import MoneyBusters2 from '../images/projects/MoneyBustersLoginPage.PNG';
 import MoneyBusters3 from '../images/projects/MoneyBustersMainPage.PNG';
 import Scammr1 from '../images/projects/scammrSlide1.JPG';
 import Scammr2 from '../images/projects/scammrSlide2.JPG';
+import CS3451 from '../images/projects/345Home.JPG';
+import CS3452 from '../images/projects/345TaskManager.JPG';
 import Eventigate1 from '../images/projects/eventigateSlide.JPG';
 import Eventigate2 from '../images/projects/eventigateSlide2.JPG';
 import CnC1 from '../images/projects/cncSlide1.JPG';
@@ -51,6 +53,15 @@ class Projects extends React.Component {
               <p>An android app built over 2 days for Dev's 48 hour hackathon (2019).</p>
               <p>Theme: Build your own startup.</p>
               <p className="italics">I worked with 3 students to develop an android app to detect whether an incoming call is a scam or not. The app used keyword detection to generate a risk score, to alert the user through phone vibrations.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+          <img className="projectsImg landscapeImg" src={ CS3451 } alt="Home Page"/><img className="projectsImg landscapeImg hideImgD" src={ CS3452 } alt="Task Manager Page"/>
+            <Carousel.Caption>
+              <h5>Task Manager</h5>
+              <p>Task manager built for a COMPSCI 345 (Human Computer Interactions) group assignment</p>
+              <p className="italics">I worked with 3 students for a group assignment, we had to create lo-fi and hi-fi prototypes, before creating a vanilla HTML/CSS website.</p>
             </Carousel.Caption>
           </Carousel.Item>
 

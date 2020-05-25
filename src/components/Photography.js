@@ -6,7 +6,7 @@ import './Photography.css';
 
 import PhotographyImages from './PhotographyImages'
 
-const {Content } = Layout;
+const {Content} = Layout;
 
 class Photography extends React.Component {
   render() {

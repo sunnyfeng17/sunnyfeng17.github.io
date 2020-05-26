@@ -4,22 +4,22 @@ import { Layout, Row, Col } from 'antd';
 
 import './Photography.css';
 
-import PhotographyImages from './PhotographyImages'
+import PhotographyImages from './PhotographyImages';
 
-const {Content} = Layout;
+const { Content } = Layout;
 
 class Photography extends React.Component {
   render() {
     return (
       <>
-      <Content className="pushDown">
+      <Content className="photography-container">
         <h1>Photography</h1>
         <div className="gallery">
-          <Row className="photographyRow">
+          <Row>
             { 
               PhotographyImages.map((key) => {
                 return (
-                  <Col xs={24} sm={8} className="photographyCol"><Fade top><img src={key.src} alt={key.title} className="photography"/></Fade></Col>
+                  <Col xs={24} sm={8}><Fade top ><img src={key.src} alt={key.title}/></Fade></Col>
                 )
               })
             }

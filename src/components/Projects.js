@@ -8,7 +8,7 @@ const { Content } = Layout;
 class Projects extends React.Component {
   render() {
     return (
-      <Content className="pushDown">
+      <Content className="project-container">
         <div>
           <h1>Projects</h1>
           <Row className="project-grid">

@@ -10,10 +10,10 @@ const { Content } = Layout;
 class Projects extends React.Component {
     render() {
       return (
-        <Content className="pushDown">
+        <Content className="resume-container">
           <h1>Resume</h1>
-          <p>Have a look at my resume or download it <a href="/resume/sunnyfeng-resume.pdf" download className="resumeDownload">here</a>. I will also be showcasing some of my themed CV's down below later, so check back in a bit if you're interested!</p>
-          <img className="resumeImg" alt="Sunny's Resume" src={ ResumeImg } />
+          <p>Have a look at my resume or download it <a href="/resume/sunnyfeng-resume.pdf" download>here</a>. I will also be showcasing some of my themed CV's down below later, so check back in a bit if you're interested!</p>
+          <img alt="Sunny's Resume" src={ ResumeImg } />
         </Content>
       );
     }

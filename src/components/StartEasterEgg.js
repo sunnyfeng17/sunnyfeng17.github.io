@@ -18,9 +18,9 @@ class WrongHome extends React.Component {
                 </Row>
                 <Row className="options">
                     <p>Yay! You found my easter egg, unfortunately it's still a work in progress so it doesn't work yet, check back later!</p>
-                    <Link to="/spacetravel" className="optionLinks">Time Travel</Link>
-                    <Link to="" className="optionLinks">Get me out of here!</Link>
-                    <Link to="/home" className="optionLinks">Return Home</Link>
+                    <Link to="/spacetravel" className="option-links">Time Travel</Link>
+                    <Link to="" className="option-links">Get me out of here!</Link>
+                    <Link to="/home" className="option-links">Return Home</Link>
                 </Row>
             </Content>
         );

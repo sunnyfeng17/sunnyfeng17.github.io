@@ -1,9 +1,5 @@
-.photography {
-    width: 28em;
-    background-color: #ffffff;
-    border-radius: 0.5em;
-    padding: 1em 1em 1em 1em;
-    margin: 0.5em 0.5em 2em 0.5em;
+.photography-container {
+    padding-top: 7em;
 }
 
 .gallery {
@@ -11,30 +7,19 @@
     margin: auto;
 }
 
-.photographyRow {
-    justify-content: center;
-}
-
-.photographyImg {
-    height: 25em;
-    padding: 1em;
-    border-radius: 2em;
+.gallery img {
+    width: 28em;
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    padding: 1em 1em 1em 1em;
+    margin: 0.5em 0.5em 2em 0.5em;
 }
 
 @media (max-width: 768px) {
-    .mobileSpace {
-        margin-bottom: -10em;
-    }
-    .photographyImg {
-        height: auto;
-        width: 20em;
-        margin: -2em 1em 0em 1em;
-        padding: 0em;
-    }
-    .photography {
-        max-width: 90%;
-    }
     .gallery {
         width: 90%;
+    }
+    .gallery img {
+        max-width: 90%;
     }
 }

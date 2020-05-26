@@ -10,10 +10,10 @@ const { Content } = Layout;
 class Home extends React.Component {
   render() {
     return (
-      <Content className="pushHome">
-        <Row className="verticalCenter" type="flex">
-          <Col xs={24} sm={10} className="mobileSpace">
-            <img className="homeImg" src={ homeImg } alt="Sunny"/>
+      <Content className="home-container">
+        <Row className="vertical-center" type="flex">
+          <Col xs={24} sm={10} className="mobile-space">
+            <img src={ homeImg } alt="Sunny"/>
           </Col>
           <Col xs={24} sm={14}>
             <h2>Hello World!</h2>

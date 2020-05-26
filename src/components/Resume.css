@@ -1,17 +1,22 @@
-.resumeImg {
+.resume-container {
+    padding-top: 7em;
+}
+
+.resume-container img {
     height: 60em;
     padding-bottom: 3em;
 }
 
-.resumeDownload {
+.resume-container a {
+    text-decoration: underline;
     color: #ffffff;
 }
 
 @media (max-width: 768px) {
-    .resumeImg {
+    .resume-container img {
         height: 40em;
     }
-    .resumeDownload {
+    .resume-container a {
         color: #1890ff;
     }
 

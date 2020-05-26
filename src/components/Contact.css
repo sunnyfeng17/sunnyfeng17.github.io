@@ -1,4 +1,22 @@
-.formBox {
+.contact-container {
+    padding-top: 7em;
+}
+
+.contact-container p {
+    color: #ffffff;
+}
+
+.contact-container a {
+    text-decoration: underline;
+    color: #ffffff;  
+}
+
+.contact-container a:hover {
+    text-decoration: underline;
+    color: #1890ff;
+}
+
+.form-wrapper {
     height: auto;
     width: 100%;
 }
@@ -12,7 +30,7 @@
     margin: 0 auto;
 }
 
-.messageBox {
+.message-box {
     height: 15em !important;
 }
 
@@ -28,33 +46,15 @@
     background-color: #74C1FF;
 }
 
-.alert {
-    margin: 1em auto auto auto;
-    width: 50%
-}
-
-.contactText {
-    color: #ffffff;
-
-}
-
-.linkedinLink {
-    color: #ffffff;
-}
-
-.linkedinLink:hover {
-    color: #1890ff;
-}
-
 @media (max-width: 768px) {
+    .contact-container a {
+        color: #1890ff;
+    }
     .form-control {
         width: 80%;
         margin: 0 auto;
     }
-    .messageBox {
+    .message-box {
         height: 10em !important;
-    }
-    .linkedinLink {
-        color: #1890ff;
     }
 }

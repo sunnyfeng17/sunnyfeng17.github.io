@@ -7,15 +7,7 @@
     overflow-x: hidden;
 }
 
-.pushHome {
-    padding-top: 6em;
-}
-
-.pushDown {
-    padding-top: 7em;
-}
-
-.verticalCenter {
+.vertical-center {
     padding: 0em 2em 0em 2em;
     min-height: 80%;
     min-height: 80vh;
@@ -24,14 +16,14 @@
 }
 
 /* Under Construction */
-.constructionBox{
+.construction-wrapper{
     padding: 4em 1em 2em 1em;
     min-height: 80%;
     min-height: 80vh;
     align-items: center;
 }
 
-.constructionText {
+.construction-text {
     font-size: 3em;
     font-weight: 700;
     color: #74C1FF;
@@ -41,28 +33,34 @@
     display: block;
 }
 
-.constructionImg {
+.construction-wrapper img {
 	-webkit-animation: shake-vertical 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 	        animation: shake-vertical 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 }
 
 /* Page Not Found */
-.pageNotFoundImg{
+.page-not-found-container img {
     margin-top: 8em;
     float: left;
 }
 
-.pageNotFoundText {
+.page-not-found-container h1 {
+    margin-bottom: 0em;
+    font-size: 12em;
+    text-align: center;
+}
+
+.page-not-found-container .text-wrapper {
     text-align: left;
     bottom: 0;
     right: 0;
     position: absolute;
 }
 
-.errorText {
-    margin-bottom: 0em;
-    font-size: 12em;
-    text-align: center;
+.page-not-found-container p {
+    font-size: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 p {
@@ -146,21 +144,20 @@ h5 { /* Project Headings */
     h5 {
         font-size: 2.5em;
     }
-    .constructionText { /* For Under Construction Page */
+    .construction-text { /* For Under Construction Page */
         font-size: 1.5em;
     }
-    .constructionImg { /* For Under Construction Page */
+    .construction-wrapper img { /* For Under Construction Page */
         height: 15em;
     }
-    .errorText { /* For 404 Page */
+    .page-not-found-container h1 { /* For 404 Page */
         display: None;
     }
-    .pageNotFoundImg { /* For 404 Page */
+    .page-not-found-container img { /* For 404 Page */
         height: 15em;
         margin-top: 8em;
     }
 }
-
 
 /* For H1 */
 

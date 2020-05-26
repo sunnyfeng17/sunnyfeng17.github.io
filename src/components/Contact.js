@@ -56,10 +56,10 @@ class Contact extends React.Component {
   render() {
     return (
       <>
-        <Content className="pushDown">
+        <Content className="contact-container">
           <h1>Leave a message!</h1>
-          <p className="contactText">I'd love to hear from you, so fill in the form and I'll get back to you! Alternatively you can contact me on <a className="linkedinLink" href="//www.linkedin.com/in/sunnyfeng617/">LinkedIn</a>!</p>
-          <Form onSubmit={this.handleSubmit.bind(this)} className="formBox">
+          <p>I'd love to hear from you, so fill in the form and I'll get back to you! Alternatively you can contact me on <a href="//www.linkedin.com/in/sunnyfeng617/">LinkedIn</a>!</p>
+          <Form onSubmit={this.handleSubmit.bind(this)} className="form-wrapper">
             <FormGroup controlId="formBasicEmail">
               <Input
                 type="email"
@@ -97,7 +97,7 @@ class Contact extends React.Component {
               <Input
                 type="textarea"
                 name="message"
-                className="messageBox text-primary"
+                className="message-box text-primary"
                 value={this.state.message}
                 onChange={this.handleChange.bind(this, 'message')}
                 placeholder="Message"

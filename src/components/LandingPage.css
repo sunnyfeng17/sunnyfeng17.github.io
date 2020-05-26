@@ -1,4 +1,4 @@
-.landingPage {
+.landing-container {
     width: 100%;
     height: 100%;
     background: linear-gradient(131deg, #fc00ff, #00dbde);
@@ -8,7 +8,7 @@
     animation: AnimationName 7s ease infinite;
 }
 
-.landingBox {
+.landing-box {
     border: 2px solid #000000;
     position: absolute;
     max-width: 100%;
@@ -27,7 +27,7 @@
 }
 
 /* Text Animation */
-.handwrittenEffect {
+.handwriting-effect {
     width: 80vw;
     padding: 5vw 1vw 2vw 1vw;
 }
@@ -111,13 +111,13 @@
 } 
   
 /* Continue */
-.continueButton {
+.continue-button {
     width: 20em;
 	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
 	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
 }
 
-.continueButton:hover {
+.continue-button:hover {
     cursor: url('../images/doIt.png'), auto;
 }
 

@@ -1,15 +1,62 @@
 .project-grid {
-    padding-left: 8em;
-    padding-right: 8em;
+    padding: 0 8em 4em 8em;
 }
 
 .project-card {
-    padding-bottom: 25%
+    opacity: 90%;
+    height: 100px;
+    padding-bottom: 25%;
 }
 
 .project-card:hover {
+    opacity: 100%;
     cursor: pointer;
     transform: scale(1.05);
     border-radius: 8px;
     z-index: 1;
+}
+
+#personal-website-card {
+    background-image: url("../images/project-cards/personal-website-card.jpg");
+    background-size: cover;
+}
+
+#tetris-card {
+    background-image: url("../images/project-cards/tetris-card.jpg");
+    background-size: cover;
+}
+
+#learnfromakiwi-card {
+    background-image: url("../images/project-cards/learnfromakiwi-card.jpg");
+    background-size: cover;
+}
+
+#learnfromakiwi-card {
+    background-image: url("../images/project-cards/learnfromakiwi-card.jpg");
+    background-size: cover;
+}
+
+#money-busters-card {
+    background-image: url("../images/project-cards/money-busters-card.jpg");
+    background-size: cover;
+}
+
+#scammr-card {
+    background-image: url("../images/project-cards/scammr-card.jpg");
+    background-size: cover;
+}
+
+#task-manager-card {
+    background-image: url("../images/project-cards/task-manager-card.jpg");
+    background-size: cover;
+}
+
+#eventigate-card {
+    background-image: url("../images/project-cards/eventigate-card.jpg");
+    background-size: cover;
+}
+
+#moving-shape-card {
+    background-image: url("../images/project-cards/moving-shape-card.jpg");
+    background-size: cover;
 }

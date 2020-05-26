@@ -12,20 +12,14 @@ class Projects extends React.Component {
         <div>
           <h1>Projects</h1>
           <Row className="project-grid">
-            <Col span={6} className="project-card" style={{backgroundColor: "blue"}}>
-            </Col>
-            <Col span={6} clas     Name="project-card" style={{backgroundColor: "pink"}}>
-            </Col>
-            <Col span={6} className="project-card" style={{backgroundColor: "green"}}>
-            </Col>
-            <Col span={6} className="project-card" style={{backgroundColor: "yellow"}}>
-            </Col>
-            <Col span={6} className="project-card" style={{backgroundColor: "orange"}}>
-            </Col>
-            <Col span={6} className="project-card" style={{backgroundColor: "purple"}}>
-            </Col>
-            <Col span={6} className="project-card" style={{backgroundColor: "white"}}>
-            </Col>
+            <Col xs={24} sm={24} md={6}  className="project-card" id="personal-website-card" />
+            <Col xs={24} sm={24} md={6}  className="project-card" id="tetris-card" />
+            <Col xs={24} sm={24} md={6} className="project-card" id="learnfromakiwi-card" />
+            <Col xs={24} sm={24} md={6} className="project-card" id="money-busters-card" />
+            <Col xs={24} sm={24} md={6} className="project-card" id="scammr-card" />
+            <Col xs={24} sm={24} md={6} className="project-card" id="task-manager-card" />
+            <Col xs={24} sm={24} md={6} className="project-card" id="eventigate-card" />
+            <Col xs={24} sm={24} md={6} className="project-card" id="moving-shape-card" />
           </Row>     
         </div>  
       </Content>

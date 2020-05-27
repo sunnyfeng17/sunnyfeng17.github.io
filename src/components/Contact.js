@@ -60,7 +60,7 @@ class Contact extends React.Component {
           <h1>Leave a message!</h1>
           <p>I'd love to hear from you, so fill in the form and I'll get back to you! Alternatively you can contact me on <a href="//www.linkedin.com/in/sunnyfeng617/">LinkedIn</a>!</p>
           <Form onSubmit={this.handleSubmit.bind(this)} className="form-wrapper">
-            <FormGroup controlId="formBasicEmail">
+            <FormGroup>
               <Input
                 type="email"
                 name="email"
@@ -71,7 +71,7 @@ class Contact extends React.Component {
                 required
               />
             </FormGroup>
-<           FormGroup controlId="formBasicName">
+            <FormGroup >
               <Input
                 type="text"
                 name="name"
@@ -82,7 +82,7 @@ class Contact extends React.Component {
                 required
               />
             </FormGroup>
-            <FormGroup controlId="formBasicSubject">
+            <FormGroup>
               <Input
                 type="text"
                 name="subject"
@@ -93,7 +93,7 @@ class Contact extends React.Component {
                 required
               />
             </FormGroup>
-<           FormGroup controlId="formBasicMessage">
+            <FormGroup>
               <Input
                 type="textarea"
                 name="message"
@@ -113,4 +113,5 @@ class Contact extends React.Component {
     )
   }
 }
+
 export default Contact

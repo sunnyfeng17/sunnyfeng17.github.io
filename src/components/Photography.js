@@ -17,9 +17,9 @@ class Photography extends React.Component {
         <div className="gallery">
           <Row>
             { 
-              PhotographyImages.map((key) => {
+              PhotographyImages.map((object, i) => {
                 return (
-                  <Col xs={24} sm={8}><Fade top ><img src={key.src} alt={key.title}/></Fade></Col>
+                  <Col xs={24} sm={8} key={i} ><Fade top ><img src={object.src} alt={object.title}/></Fade></Col>
                 )
               })
             }

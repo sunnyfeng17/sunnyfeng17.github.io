@@ -1,19 +1,19 @@
 import React from 'react';
 import { Layout, Row, Col } from 'antd';
-
+import { Link } from 'react-router-dom';
 import "./Projects.css";
 
 const { Content } = Layout;
 
 const cards = [
-  { cardId: 'personal-website-card' },
-  { cardId: 'tetris-card'},
-  { cardId: 'learnfromakiwi-card' },
-  { cardId: 'money-busters-card' },
-  { cardId: 'scammr-card' },
-  { cardId: 'task-manager-card' },
-  { cardId: 'eventigate-card' },
-  { cardId: 'moving-shape-card' }
+  { cardId: 'personal-website-card', title: 'Personal Website' },
+  { cardId: 'tetris-card', title: 'Tetris'},
+  { cardId: 'learnfromakiwi-card', title: 'LearnFromA.Kiwi' },
+  { cardId: 'money-busters-card', title: 'Money Busters' },
+  { cardId: 'scammr-card', title: 'Scammr' },
+  { cardId: 'task-manager-card', title: 'Task Manager' },
+  { cardId: 'eventigate-card', title: 'Eventigate' },
+  { cardId: 'moving-shapes-card', title: 'Moving Shapes' }
   
 ]
 
@@ -39,18 +39,18 @@ class Projects extends React.Component {
     })
     return (
       <Content className="project-container">
-        <div>
-          <h1>Projects</h1>
-          <Row className="project-grid">
-            { 
-              cards.map((object, i) => {
-                return (
-                  <Col xs={24} sm={24} md={6} className="project-card" key={i} id={object.cardId} />
-                )
-              })
-            }
-          </Row>     
-        </div>  
+        <h1>Projects</h1>
+        <Row className="project-grid">
+          { 
+            cards.map((object, i) => {
+              return (
+                <Link key={i} to={ "/*" }>
+                  <Col xs={24} sm={24} md={6} className="project-card" id={object.cardId} />
+                </Link>
+              )
+            })
+          }
+        </Row>      
       </Content>
     );
   }

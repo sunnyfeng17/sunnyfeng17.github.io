@@ -3,18 +3,23 @@
 }
 
 .project-grid {
-    padding: 0 8em 4em 8em;
+    justify-content: center;
+    padding: 0 6em 4em 6em;
+}
+
+.project-grid a {
+    width: min-content;
 }
 
 .project-card {
+    height: 20em;
+    width: 20em;
+    max-width: 100% !important;
     opacity: 90%;
-    height: 100px;
-    padding-bottom: 25%;
 }
 
 .project-card:hover {
     opacity: 100%;
-    cursor: pointer;
     transform: scale(1.05);
     border-radius: 8px;
     z-index: 1;
@@ -60,7 +65,7 @@
     background-size: cover;
 }
 
-#moving-shape-card {
-    background-image: url("../images/project-cards/moving-shape-card.jpg");
+#moving-shapes-card {
+    background-image: url("../images/project-cards/moving-shapes-card.jpg");
     background-size: cover;
 }

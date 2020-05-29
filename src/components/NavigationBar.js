@@ -48,7 +48,7 @@ class NavigationBar extends React.Component {
       <div>
         <Navbar position="sticky" expand="lg" className="navbar sticky-top">
         <LinkContainer exact to="/"><img className="name" src={sunny} alt="Sunny Feng"/></LinkContainer>
-          <NavbarToggler onClick={this.toggleNavbar} aria-controls="responsive-navbar-nav" style={{borderColor: "#252525", padding: "0"}}><Hamburger className="menu"/></NavbarToggler>
+          <NavbarToggler onClick={this.toggleNavbar} aria-controls="responsive-navbar-nav" style={{borderColor: "#252525", padding: "0"}}><Hamburger className="hamburger"/></NavbarToggler>
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               {

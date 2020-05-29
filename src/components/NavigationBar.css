@@ -1,47 +1,42 @@
 .navbar {
-    background-color: #252525;
-    position: fixed !important;
-    top: 0 !important;
-    padding-bottom: 0.5em;
-    width: 100%;
+  background-color: #252525;
+  position: fixed !important;
+  top: 0 !important;
+  padding-bottom: 0.5em;
+  width: 100%;
+}
+.navbar .name {
+  margin: 1.5em 2em 1em 1.5em;
+  height: 3em;
+  cursor: pointer;
+}
+.navbar .nav-item {
+  margin: 1vw 1vw 1vw 0vw;
+  color: #ffffff;
+  padding-bottom: 1vw;
+  padding: 1em 1em 0.5em 1em;
+  cursor: pointer;
+}
+.navbar .nav-item:hover {
+  color: #1890ff;
+  border-bottom: 2px solid #1890ff;
+}
+.navbar .nav-item.active {
+  color: #1890ff;
+  border-bottom: 2px solid #1890ff;
+}
+.navbar a.exlink {
+  padding-bottom: 0.5em;
+  margin-right: 2vw;
+  color: #ffffff;
+  font-size: 2em;
+}
+.navbar a.exlink:hover {
+  color: #1890ff;
+}
+.navbar .hamburger {
+  height: 1.8em;
+  border-color: #252525;
 }
 
-.name {
-    margin: 1.5em 2em 1em 1.5em;
-    height: 3em;
-    cursor: pointer;
-}
-
-.nav-item {
-    margin: 1vw 1vw 1vw 0vw;
-    color: #ffffff;
-    padding-bottom: 1vw;
-    padding: 1em 1em 0.5em 1em;
-    cursor: pointer;
-}
-
-.nav-item:hover { 
-    color: #1890ff;
-    border-bottom: 2px solid #1890ff;
-}
-
-.nav-item.active { 
-    color: #1890ff;
-    border-bottom: 2px solid #1890ff;
-}
-
-a.exlink {
-    padding-bottom: 0.5em;
-    margin-right: 2vw;
-    color: #ffffff;
-    font-size: 2em;
-}
-
-a.exlink:hover { 
-    color: #1890ff;
-}
-
-.menu {
-    height: 1.8em;
-    border-color: #252525;
-}
+/*# sourceMappingURL=NavigationBar.css.map */

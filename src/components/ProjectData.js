@@ -16,7 +16,7 @@ const ProjectData = [
   { 
     cardId: 'tetris-card', 
     url: 'tetris', 
-    video: require('../images/project-videos/personal-website.mp4'), //temp    
+    video: '', //temp    
     title: 'Tetris', 
     sub: 'A vanilla Javascript, HTML and CSS Tetris game',
     desc: '',
@@ -44,7 +44,7 @@ const ProjectData = [
   { 
     cardId: 'money-busters-card', 
     url: 'money-busters',
-    video: require('../images/project-videos/personal-website.mp4'), //temp   
+    video: '', //temp   
     title: 'Money Busters', 
     sub: 'A webapp to manage student finances. Users are prompted to enter their expenses and income, then they are able to view their spending allowance and more.',
     desc: '',
@@ -58,7 +58,7 @@ const ProjectData = [
   { 
     cardId: 'scammr-card', 
     url: 'scammr',
-    video: require('../images/project-videos/personal-website.mp4'), //temp   
+    video: '', //temp   
     title: 'Scammr',
     sub: 'An android app using keyword detection to generate a risk score, to alert the user through phone vibrations.',
     desc: '',
@@ -72,7 +72,7 @@ const ProjectData = [
   { 
     cardId: 'task-manager-card', 
     url: 'task-manager', 
-    video: require('../images/project-videos/personal-website.mp4'), //temp  
+    video: '', //temp  
     title: 'Task Manager',  
     sub: 'Lo-fi and hi-fi prototypes, before creating a vanilla Javascript, HTML and CSS website.',
     desc: '',
@@ -86,7 +86,7 @@ const ProjectData = [
   { 
     cardId: 'eventigate-card', 
     url: 'eventigate', 
-    video: require('../images/project-videos/personal-website.mp4'), //temp    
+    video: '', //temp    
     title: 'Eventigate', 
     sub: 'A website to help connect locations, individuals and volunteering groups.',
     desc: '',
@@ -100,7 +100,7 @@ const ProjectData = [
   { 
     cardId: 'moving-shapes-card', 
     url: 'moving-shapes',
-    video: require('../images/project-videos/personal-website.mp4'), //temp    
+    video: '', //temp    
     title: 'Moving Shapes', 
     sub: 'x',
     desc: '',

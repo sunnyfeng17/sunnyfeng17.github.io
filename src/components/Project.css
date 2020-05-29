@@ -1,85 +1,140 @@
 .project-container {
-    padding-top: 0em;
-    min-height: 100% !important;
-    background-color: #FFFFFF;
+  padding-top: 0em;
+  min-height: 100% !important;
+  background-color: aliceblue;
+  text-align: center;
+  color: #000000;
 }
 
-.project-container h1{
-    font-size: 5em;
-    color: #000000;
-    margin-bottom: 0;
-    padding-bottom: 0;
+.project-jumbotron {
+  background-color: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+}
+.project-jumbotron video {
+  left: 0;
+  top: 0;
+  position: absolute;
+  margin-top: -10em;
+  width: 100%;
+}
+.project-jumbotron .banner {
+  background: #FFFFFF;
+  min-height: 22em;
+  opacity: 70%;
+}
+.project-jumbotron h1 {
+  font-size: 5em;
+  color: #000000;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.project-jumbotron p {
+  font-size: 1.5em;
+  font-style: italic;
+  color: #000000;
+  margin-bottom: 0.5em;
+}
+.project-jumbotron a {
+  font-size: 3em;
+  padding: 0.5em;
 }
 
-.project-container p {
-    font-size: 1.5em;
-    font-style: italic;
-    color: #000000;
-    margin-bottom: 0.5em;
+.techstack-wrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.techstack-wrapper p {
+  font-size: 2em;
+  font-weight: 500;
+  color: #000000;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.project-container a {
-    font-size: 3em;
+.desc-wrapper p {
+  text-align: left;
+  font-style: normal;
 }
 
-.project-container video {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    margin-top: -10em;
-    overflow: hidden;
-    z-index: -1;
-    width: 100%;
+.svg-inline--fa {
+  font-size: 3em !important;
+  margin: 0em auto 0em auto;
+  align-self: center;
 }
 
-.project-jumbotron {  
-    background-color: #FFFFFF;
-    opacity: 80%;
-    position: relative;
-    overflow: hidden;
-    height: 30em;
+.fa-react {
+  color: #61dbfb;
 }
 
-.project-jumbotron .container {
-    position: relative;
-    z-index: 1;
-    background: #FFFFFF;
-    opacity: 70%;
-    min-width: 100%;
-    min-height: 20em;
-    margin: 0em 0em 0em 0em;
-    padding: 0em 0em 0em 0em;
+.fa-js-square {
+  color: #f0d91d;
+}
+
+.fa-html5 {
+  color: #ea6228;
+}
+
+.fa-css3-alt {
+  color: #2da4d6;
+}
+
+.fa-sass {
+  color: #c76495;
+}
+
+.fa-bootstrap {
+  color: #5d3e88;
+}
+
+.fa-git-alt {
+  color: #e94e32;
+}
+
+.fa-github {
+  color: #1a1e22;
 }
 
 @media (max-width: 768px) {
-    .project-container h1 {
-        font-size: 3em;
-    }
-    .project-container a {
-        font-size: 1em;
-    }
-    .project-container video {
-        margin-top: 0;
-    }
-    .project-jumbotron .container {
-        min-height: 13em;
-    }
+  .project-jumbotron video {
+    margin: 0;
+    top: 0;
+  }
+  .project-jumbotron .banner {
+    min-height: 13em;
+  }
+  .project-jumbotron h1 {
+    font-size: 2em;
+  }
+  .project-jumbotron p {
+    font-size: 1em;
+  }
+  .project-jumbotron a {
+    font-size: 2em;
+    padding: 0.5em;
+  }
 }
-
 @media (min-width: 768px) and (max-width: 1024px) {
-    .project-container h1 {
-        font-size: 6em;
-    }
-    .project-container a {
-        font-size: 2em;
-    }
-    .project-container video {
-        margin-top: 0;
-    }
-    .project-jumbotron .container {
-        min-height: 20em;
-    }
+  .project-jumbotron video {
+    margin: 0;
+    top: 0;
+  }
+  .project-jumbotron .banner {
+    min-height: 20em;
+  }
+  .project-jumbotron h1 {
+    font-size: 3em;
+  }
+  .project-jumbotron p {
+    font-size: 2em;
+  }
+  .project-jumbotron a {
+    font-size: 3em;
+    padding: 0.5em;
+  }
 }
 
-  
+/*# sourceMappingURL=Project.css.map */

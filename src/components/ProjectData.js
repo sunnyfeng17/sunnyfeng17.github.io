@@ -4,88 +4,112 @@ const ProjectData = [
     url: 'personal-website',
     video: require('../images/project-videos/personal-website.mp4'),   
     title: 'Personal Website', 
-    desc: 'My personal website which I created, for fun and to learn, using React, EmailJS and multiple UI libraries.',
-    tech: ['React', 'HTML/CSS', 'Antd', 'Reactstrap'],
-    lessons: ['React', 'Reactstrap', 'Antd', 'EmailJS', 'Deploying to github pages and custom domain'],
+    sub: 'My personal website which I created, for fun and to learn, using React, EmailJS and multiple UI libraries.',
+    desc: '',
+    icons: ['react', 'js-square', 'html5', 'css3-alt', 'sass', 'bootstrap', 'git-alt', 'github'],
+    lessons: ['React', 'Bootstrap/Reactstrap', 'Antd', 'Setting up contact form using EmailJS', 'Deploying to github pages and custom domain'],
     github: true,
-    githubLink: ''
+    githubLink: 'https://github.com/sunnyfeng17/sunnyfeng17.github.io', // Make public before deploying
+    website: true,
+    websiteLink: 'https://www.sunnyfeng.co.nz'
   },
   { 
     cardId: 'tetris-card', 
     url: 'tetris', 
     video: require('../images/project-videos/personal-website.mp4'), //temp    
     title: 'Tetris', 
-    desc: 'A vanilla javascript, html and css tetris game',
-    tech: [],
-    lessons: [],
+    sub: 'A vanilla Javascript, HTML and CSS Tetris game',
+    desc: '',
+    icons: [''],
+    lessons: [''],
     github: true,
-    githubLink: ''
+    githubLink: '',
+    website: false,
+    websiteLink: ''
   },
   { 
     cardId: 'learnfromakiwi-card', 
     url: 'learnfromakiwi', 
-    video: require('../images/project-videos/personal-website.mp4'), //temp    
+    video: require('../images/project-videos/learnfromakiwi.mp4'),    
     title: 'LearnFromA.Kiwi', 
-    desc: 'A platform that allows kiwis to host and attend live, interactive video classes  recreating the in-person lessons experience by allowing real time feedback from instructions and social interactions between participants.',
-    tech: [],
-    lessons: [],
+    sub: 'A platform that allows kiwis to host and attend live, interactive video classes  recreating the in-person lessons experience by allowing real time feedback from instructions and social interactions between participants.',
+    desc: '',
+    icons: [''],
+    lessons: [''],
     github: true,
-    githubLink: ''
+    githubLink: '',
+    website: true,
+    websiteLink: ''
   },
   { 
     cardId: 'money-busters-card', 
     url: 'money-busters',
     video: require('../images/project-videos/personal-website.mp4'), //temp   
     title: 'Money Busters', 
-    desc: 'A webapp to manage student finances. Users are prompted to enter their expenses and income, then they are able to view their spending allowance and more.',
-    tech: [],
-    lessons: [],
+    sub: 'A webapp to manage student finances. Users are prompted to enter their expenses and income, then they are able to view their spending allowance and more.',
+    desc: '',
+    icons: [''],
+    lessons: [''],
     github: true,
-    githubLink: ''
+    githubLink: '',
+    website: false,
+    websiteLink: ''
   },
   { 
     cardId: 'scammr-card', 
     url: 'scammr',
     video: require('../images/project-videos/personal-website.mp4'), //temp   
     title: 'Scammr',
-    desc: 'An android app using keyword detection to generate a risk score, to alert the user through phone vibrations.',
-    tech: [],
-    lessons: [],
+    sub: 'An android app using keyword detection to generate a risk score, to alert the user through phone vibrations.',
+    desc: '',
+    icons: [''],
+    lessons: [''],
     github: false,
-    githubLink: ''
+    githubLink: '',
+    website: false,
+    websiteLink: ''
   },
   { 
     cardId: 'task-manager-card', 
     url: 'task-manager', 
     video: require('../images/project-videos/personal-website.mp4'), //temp  
     title: 'Task Manager',  
-    desc: 'Lo-fi and hi-fi prototypes, before creating a vanilla HTML/CSS website.',
-    tech: [],
-    lessons: [],
+    sub: 'Lo-fi and hi-fi prototypes, before creating a vanilla Javascript, HTML and CSS website.',
+    desc: '',
+    icons: [''],
+    lessons: [''],
     github: false,
-    githubLink: ''
+    githubLink: '',
+    website: false,
+    websiteLink: ''
   },
   { 
     cardId: 'eventigate-card', 
     url: 'eventigate', 
     video: require('../images/project-videos/personal-website.mp4'), //temp    
     title: 'Eventigate', 
-    desc: 'A website to help connect locations, individuals and volunteering groups.',
-    tech: [],
-    lessons: [],
+    sub: 'A website to help connect locations, individuals and volunteering groups.',
+    desc: '',
+    icons: [''],
+    lessons: [''],
     github: true,
-    githubLink: ''
+    githubLink: '',
+    website: false,
+    websiteLink: ''
   },
   { 
     cardId: 'moving-shapes-card', 
     url: 'moving-shapes',
     video: require('../images/project-videos/personal-website.mp4'), //temp    
     title: 'Moving Shapes', 
-    desc: 'x',
-    tech: [],
-    lessons: [],
+    sub: 'x',
+    desc: '',
+    icons: [''],
+    lessons: [''],
     github: false,
-    githubLink: ''
+    githubLink: '',
+    website: false,
+    websiteLink: ''
   }
 ]
 

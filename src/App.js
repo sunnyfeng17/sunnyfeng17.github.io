@@ -5,6 +5,11 @@ import Routes from './components/Routes';
 import 'antd/dist/antd.css';
 import './App.css';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+ 
+library.add(fab)
+
 class App extends React.Component {
   render() {
     const { location } = this.props

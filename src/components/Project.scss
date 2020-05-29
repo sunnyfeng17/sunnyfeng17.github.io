@@ -1,0 +1,140 @@
+.project-container {
+    padding-top: 0em;
+    min-height: 100% !important;
+    background-color: aliceblue;
+    text-align: center;
+    color: #000000;
+}
+
+.project-jumbotron {
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    video {
+        left: 0;
+        top: 0;
+        position: absolute;
+        margin-top: -10em;
+        width: 100%;
+    }
+    .banner {    
+        background: #FFFFFF;
+        min-height: 22em;
+        opacity: 70%;
+    }
+    h1 {
+        font-size: 5em;
+        color: #000000;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    p {
+        font-size: 1.5em;
+        font-style: italic;
+        color: #000000;
+        margin-bottom: 0.5em;
+    }
+    a {
+        font-size: 3em;
+        padding: 0.5em;
+    }
+}
+
+.techstack-wrapper{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    p {
+        font-size: 2em;
+        font-weight: 500;
+        color: #000000;
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.desc-wrapper{
+    p {
+        text-align: left;
+        font-style: normal;
+    }
+} 
+
+.svg-inline--fa {
+    font-size: 3em !important;
+    margin: 0em auto 0em auto;
+    align-self: center;
+}
+
+.fa-react {
+    color: #61dbfb;
+} 
+.fa-js-square {
+    color: #f0d91d;
+}
+.fa-html5 {
+    color: #ea6228;
+}
+.fa-css3-alt {
+    color: #2da4d6;
+} 
+.fa-sass {
+    color: #c76495;
+}
+.fa-bootstrap {
+    color: #5d3e88;
+} 
+.fa-git-alt {
+    color: #e94e32;
+}
+.fa-github {
+    color: #1a1e22;
+}   
+
+@media (max-width: 768px) {
+    .project-jumbotron {
+        video {
+            margin: 0;
+            top: 0;
+        }
+        .banner {
+            min-height: 13em;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        p {
+            font-size: 1em;
+        }
+        a {
+            font-size: 2em;
+            padding: 0.5em;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .project-jumbotron {
+        video {
+            margin: 0;
+            top: 0;
+        }
+        .banner {
+            min-height: 20em;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 2em;
+        }
+        a {
+            font-size: 3em;
+            padding: 0.5em;
+        }
+    }
+}
+
+  

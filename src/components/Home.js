@@ -12,7 +12,7 @@ class Home extends React.Component {
     return (
       <Content className="home-container">
         <Row className="vertical-center" type="flex">
-          <Col xs={24} sm={10} className="mobile-space">
+          <Col xs={24} sm={10}>
             <img src={ homeImg } alt="Sunny"/>
           </Col>
           <Col xs={24} sm={14}>

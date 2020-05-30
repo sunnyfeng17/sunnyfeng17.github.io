@@ -1,0 +1,34 @@
+.page-not-found-container {
+    img {
+        margin-top: 8em;
+        float: left;
+    }
+    h1 {
+        margin-bottom: 0em;
+        font-size: 12em;
+        text-align: center;
+    }
+    .text-wrapper {
+        text-align: left;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+    }
+    p {
+        font-size: 1.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-not-found-container {
+        h1 {
+            display: None;
+        }
+        img {
+            height: 15em;
+            margin-top: 8em;
+        }
+    }
+}

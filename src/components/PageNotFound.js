@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Layout, Row, Col } from 'antd';
+import './PageNotFound.scss';
 
 import looking from '../images/looking.png'
 

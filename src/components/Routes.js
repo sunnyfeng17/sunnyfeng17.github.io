@@ -9,8 +9,8 @@ import Photography from './Photography';
 import Playground from './Playground';
 import Resume from './Resume';
 import Contact from './Contact';
-import StartEasterEgg from './StartEasterEgg';
-import SpaceTravel from './SpaceTravel';
+import StartEasterEgg from './EasterEgg/StartEasterEgg';
+import SpaceTravel from './EasterEgg/SpaceTravel';
 import PageNotFound from './PageNotFound';
 
 class Routes extends React.Component {

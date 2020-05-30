@@ -11,7 +11,7 @@ class Home extends React.Component {
   render() {
     return (
       <Content className="home-container">
-        <Row className="vertical-center" type="flex">
+        <Row className="vertical-center">
           <Col xs={24} sm={10}>
             <img src={ homeImg } alt="Sunny"/>
           </Col>

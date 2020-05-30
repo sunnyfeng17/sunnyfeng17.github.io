@@ -3,7 +3,7 @@ import { Layout, Row, Col } from 'antd';
 import {Jumbotron } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { GithubFilled, ArrowLeftOutlined, GlobalOutlined } from '@ant-design/icons';
-import './Project.css';
+import './Project.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 

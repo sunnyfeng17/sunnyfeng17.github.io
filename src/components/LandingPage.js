@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'antd';
 
-import './LandingPage.css';
+import './LandingPage.scss';
 
 import { ReactComponent as SunnySVG } from '../images/sunnyfeng.svg';
 import { ReactComponent as ContinueSVG} from '../images/continue.svg';

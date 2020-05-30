@@ -2,8 +2,6 @@ import React from 'react';
 import { Layout} from 'antd';
 import { Link } from 'react-router-dom';
 
-import './Resume.css';
-
 import underConstruction  from '../images/construction.png';
 
 const { Content } = Layout;

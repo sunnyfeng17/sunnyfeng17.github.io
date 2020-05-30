@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout } from 'antd';
 
-import './Resume.css';
+import './Resume.scss';
 
 import ResumeImg from '../images/resumes/sunnyfeng-resume.jpg'
 

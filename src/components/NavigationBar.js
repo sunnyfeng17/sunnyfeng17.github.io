@@ -3,7 +3,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 import { LinkedinFilled, GithubFilled } from '@ant-design/icons';
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem} from 'reactstrap';
 
-import './NavigationBar.css';
+import './NavigationBar.scss';
 
 import { ReactComponent as Hamburger} from '../images/hamburger.svg';
 import sunny from '../images/sunnyfeng.png';

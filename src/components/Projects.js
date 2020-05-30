@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Row, Col } from 'antd';
 import { Link } from 'react-router-dom';
-import './Projects.css';
+import './Projects.scss';
 
 import ProjectData from './ProjectData';
 

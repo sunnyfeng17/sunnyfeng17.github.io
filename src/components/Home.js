@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Row, Col } from 'antd';
 
-import './Home.css';
+import './Home.scss';
 
 import homeImg from '../images/home.jpg';
 

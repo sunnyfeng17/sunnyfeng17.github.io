@@ -2,7 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import { Layout, Row} from 'antd';
 
-import './EasterEgg.css'
+import './EasterEgg.scss'
 
 import tardisTravel from '../images/tardistravel.jpg';
 

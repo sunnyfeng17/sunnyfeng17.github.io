@@ -3,7 +3,7 @@ import { Layout } from 'antd';
 import * as emailjs from 'emailjs-com';
 import { Button, Form, FormGroup, Input } from 'reactstrap';
 
-import './Contact.css';
+import './Contact.scss';
 
 const { Content } = Layout;
 

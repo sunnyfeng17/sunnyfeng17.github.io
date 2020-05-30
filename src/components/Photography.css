@@ -1,25 +1,28 @@
 .photography-container {
-    padding-top: 7em;
+  padding-top: 7em;
 }
 
 .gallery {
-    width: 90%;
-    margin: auto;
+  max-width: 90%;
+  margin: auto;
 }
-
 .gallery img {
-    width: 28em;
-    background-color: #ffffff;
-    border-radius: 0.5em;
-    padding: 1em 1em 1em 1em;
-    margin: 0.5em 0.5em 2em 0.5em;
+  width: 28em;
+  background-color: #ffffff;
+  border-radius: 0.5em;
+  padding: 1em 1em 1em 1em;
+  margin: 0.5em 0.5em 2em 0.5em;
 }
 
 @media (max-width: 768px) {
-    .gallery {
-        width: 90%;
-    }
-    .gallery img {
-        max-width: 90%;
-    }
+  .gallery img {
+    max-width: 90%;
+  }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .gallery img {
+    max-width: 90%;
+  }
+}
+
+/*# sourceMappingURL=Photography.css.map */

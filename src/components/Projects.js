@@ -17,7 +17,7 @@ class Projects extends React.Component {
             ProjectData.map((object, i) => {
               return (
                 <Link key={i} to={{pathname: "/project/" + object.url, state: {object} }}>
-                  <Col xs={24} sm={24} md={6} className="project-card" id={object.cardId} />
+                  <Col xs={24} sm={24} md={6} className="project-card" id={object.projectId} />
                 </Link>
               )
             })

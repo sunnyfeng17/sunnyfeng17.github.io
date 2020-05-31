@@ -41,21 +41,26 @@
     }
 }
 
+.text-container {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    p {
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 0.5em;
+    }
+}
+
 .techstack-wrapper{
+    padding: 0em 2em 2em 2em;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
-    p {
-        font-size: 2em;
-        font-weight: 500;
-        color: #000000;
-        display: inline;
-        margin-left: auto;
-        margin-right: auto;
-    }
     .svg-inline--fa {
-        font-size: 3em !important;
-        margin: 0em 1em 0em 1em;
+        font-size: 4em !important;
+        margin: 0em 0.5em 0.1em 0.5em;
     }
     .fa-react {
         color: #61dbfb;
@@ -81,14 +86,35 @@
     .fa-github {
         color: #1a1e22;
     }  
+    .fa-trello {
+        color: #cecfcf;
+    }
 }
 
-.desc-wrapper{
-    p {
-        text-align: left;
-        font-style: normal;
+.slides {
+    width: 90%;
+    margin: 1em auto 0em auto;
+}
+
+.w {
+    width: 50%;
+}
+
+.lessons-wrapper {
+    padding: 0em 0em 0em 2em;
+    max-width: 100% !important;
+    li {
+        padding-left: 1em;
     }
-}  
+}
+
+.contributions-wrapper {
+    padding: 0em 0em 0em 2em;
+    max-width: 100% !important;
+    li {
+        padding-left: 1em;
+    }
+}
 
 @media (max-width: 768px) {
     .project-jumbotron {
@@ -109,6 +135,10 @@
             font-size: 2em;
             padding: 0.5em;
         }
+    }
+    .slides {
+        width: 90%;
+        margin: 1em auto 0em auto;
     }
 }
 

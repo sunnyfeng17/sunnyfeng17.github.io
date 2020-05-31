@@ -18,7 +18,7 @@ class Project extends React.Component {
           <video src={ data.video } autoPlay loop muted/>
           <div className="banner">
             <h1>{ data.title }</h1>
-            <p> { data.sub }</p>
+            <p> { data.desc }</p>
             { data.website
               ? <a href={ data.websiteLink }><GlobalOutlined /></a>
               : null
@@ -29,26 +29,45 @@ class Project extends React.Component {
             }
           </div>
         </Jumbotron>
-        <Row className="desc-wrapper">
-          <p> {data.desc} </p>
-        </Row>
-        <Row className="techstack-wrapper">
-          {data.icons.map((t, i) => {
-            console.log(t)
-            return ( 
-              <FontAwesomeIcon key={i} icon={['fab', t]} />
-            ) 
-          })}
-        </Row>
-        <Row> 
-          <Col xs={8}>
-            <p className="heading">What I learnt: </p>
-            {data.lessons.map((l, i) => {     
-              return (<p key={i}>{l}</p>) 
+        <div className="text-container">
+          <Row className="techstack-wrapper">
+            { data.icons.map((t, i) => {
+              return ( 
+                <FontAwesomeIcon key={i} icon={['fab', t]} />
+              ) 
             })}
-          </Col>
-        </Row>
-        
+          </Row>
+          <Row>
+            { data.displaySlides 
+              ? <Col xs={24} sm={24} md={12}><video src={ data.slides } className="slides" autoPlay loop muted/></Col>
+              : null
+            }
+            <div className="w">
+            { data.displayLessons
+              ? <Col xs={24} sm={24} md={12} className="lessons-wrapper">
+                  <p>LESSONS LEARNT</p>
+                  <ul>
+                    { data.lessons.map((l, i) => {     
+                      return (<li key={i}>{l}</li>) 
+                    })}
+                  </ul>
+                </Col>
+              : null
+            }
+            { data.displayContributions
+              ? <Col xs={24} sm={24} md={12}className="contributions-wrapper">
+                  <p>MY CONTRIBUTIONS</p>
+                  <ul>
+                    { data.contributions.map((l, i) => {     
+                      return (<li key={i}>{l}</li>) 
+                    })}
+                  </ul>
+                </Col>
+              : null
+            }
+            </div>
+          </Row>
+        </div>
         <Link to={{ pathname: "/projects" }}>
           <ArrowLeftOutlined /> <br /> Back to Projects!
         </Link>  

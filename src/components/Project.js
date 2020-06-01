@@ -43,9 +43,10 @@ class Project extends React.Component {
               : null
             }
             <div className="w">
+            <p>{ data.theme }</p>
             { data.displayLessons
               ? <Col xs={24} sm={24} md={12} className="lessons-wrapper">
-                  <p>LESSONS LEARNT</p>
+                  <p>WHAT I LEARNT</p>
                   <ul>
                     { data.lessons.map((l, i) => {     
                       return (<li key={i}>{l}</li>) 

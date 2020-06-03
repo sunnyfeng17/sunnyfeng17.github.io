@@ -15,7 +15,8 @@ const ProjectData = [
     github: true,
     githubLink: 'https://github.com/sunnyfeng17/sunnyfeng17.github.io', // Make public before deploying
     website: true,
-    websiteLink: 'https://www.sunnyfeng.co.nz'
+    websiteLink: 'https://www.sunnyfeng.co.nz',
+    mockup: require('../images/mockups/personal-website.jpg'),
   },
   { 
     projectId: 'tetris-card', 

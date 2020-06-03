@@ -116,6 +116,13 @@
     }
 }
 
+.mockup {
+    img {
+        width: 80%;
+        margin: auto auto auto auto;
+    }
+}
+
 @media (max-width: 768px) {
     .project-jumbotron {
         video {

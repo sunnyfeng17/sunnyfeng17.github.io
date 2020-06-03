@@ -68,6 +68,9 @@ class Project extends React.Component {
             }
             </div>
           </Row>
+          <Row className="mockup"> 
+            <img src={data.mockup} />
+          </Row>
         </div>
         <Link to={{ pathname: "/projects" }}>
           <ArrowLeftOutlined /> <br /> Back to Projects!

@@ -16,7 +16,7 @@ const ProjectData = [
     githubLink: 'https://github.com/sunnyfeng17/sunnyfeng17.github.io', // Make public before deploying
     website: true,
     websiteLink: 'https://www.sunnyfeng.co.nz',
-    mockup: require('../images/mockups/personal-website.jpg'),
+    mockup: require('../images/mockups/personal-website.jpg')
   },
   { 
     projectId: 'tetris-card', 
@@ -53,7 +53,8 @@ const ProjectData = [
     github: true,
     githubLink: 'https://github.com/rtan265/learnFromAKiwi',
     website: true,
-    websiteLink: 'https://www.learnfroma.kiwi'
+    websiteLink: 'https://www.learnfroma.kiwi',
+    mockup: require('../images/mockups/learnfromakiwi.jpg')
   },
   { 
     projectId: 'money-busters-card', 
@@ -71,7 +72,9 @@ const ProjectData = [
     github: true,
     githubLink: 'https://github.com/sunnyfeng17/MoneyBusters',
     website: false,
-    websiteLink: ''
+    websiteLink: '',
+    mockup: require('../images/mockups/money-busters.jpg')
+
   },
   { 
     projectId: 'scammr-card', 
@@ -107,7 +110,8 @@ const ProjectData = [
     github: false,
     githubLink: '',
     website: false,
-    websiteLink: ''
+    websiteLink: '',
+    mockup: require('../images/mockups/task-manager.jpg')
   },
   { 
     projectId: 'eventigate-card', 
@@ -126,7 +130,8 @@ const ProjectData = [
     github: true,
     githubLink: 'https://github.com/KimberleyEvans-Parker/Eventigate',
     website: false,
-    websiteLink: ''
+    websiteLink: '',
+    mockup: require('../images/mockups/eventigate.jpg'),
   },
   { 
     projectId: 'moving-shapes-card', 

@@ -3,7 +3,6 @@
     min-height: 100% !important;
     background-color: aliceblue;
     text-align: center;
-    color: #000000;
 }
 
 .project-jumbotron {
@@ -24,15 +23,14 @@
         opacity: 70%;
     }
     h1 {
-        font-size: 5em;
         color: #000000;
+        font-size: 5em;
         margin-bottom: 0;
         padding-bottom: 0;
     }
     p {
         font-size: 1.5em;
         font-style: italic;
-        color: #000000;
         margin-bottom: 0.5em;
     }
     a {
@@ -45,11 +43,15 @@
     width: 80%;
     margin: auto;
     text-align: left;
-    p {
+    h2 {
+        color: #000000;
         font-size: 1.5em;
         font-weight: 700;
-        color: #000000;
+        padding-top: 0.2em;
         margin-bottom: 0.5em;
+        -webkit-animation: None;
+        animation: None;
+    
     }
 }
 
@@ -94,10 +96,6 @@
 .slides {
     width: 90%;
     margin: 1em auto 0em auto;
-}
-
-.w {
-    width: 50%;
 }
 
 .lessons-wrapper {

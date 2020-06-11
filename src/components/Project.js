@@ -21,8 +21,8 @@ class Project extends React.Component {
           <div className="banner">
             <h1>{ data.title }</h1>
             <p> { data.desc }</p>
-            { data.website != null ? <a href={ data.websiteLink } rel="noopener noreferrer" target="_blank"><GlobalOutlined /></a> : null }
-            { data.github != null ? <a href={ data.githubLink } rel="noopener noreferrer" target="_blank"><GithubFilled /></a> : null }
+            { data.website != null ? <a href={ data.website } rel="noopener noreferrer" target="_blank"><GlobalOutlined /></a> : null }
+            { data.github != null ? <a href={ data.github } rel="noopener noreferrer" target="_blank"><GithubFilled /></a> : null }
           </div>
         </Jumbotron>
           <Row className="techstack-wrapper">

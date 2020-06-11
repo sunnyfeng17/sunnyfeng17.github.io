@@ -16,7 +16,7 @@ const ProjectData = [
   { 
     projectId: 'tetris-card', 
     url: 'tetris',
-    video: '', //temp
+    video: require('../videos/jumbotron-videos/tetris.mp4'), 
     title: 'Tetris', 
     desc: 'A vanilla JavaScript, HTML and CSS Tetris game.',
     icons: ['js-square', 'html5', 'css3-alt'],

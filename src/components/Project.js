@@ -20,13 +20,12 @@ class Project extends React.Component {
           <video src={ data.video } autoPlay loop muted/>
           <div className="banner">
             <h1>{ data.title }</h1>
-            <p> { data.desc }</p>
             { data.website != null ? <a href={ data.website } rel="noopener noreferrer" target="_blank"><GlobalOutlined /></a> : null }
             { data.github != null ? <a href={ data.github } rel="noopener noreferrer" target="_blank"><GithubFilled /></a> : null }
           </div>
         </Jumbotron>
           <Row className="techstack-wrapper">
-            { data.icons.map((t, i) => { return ( <FontAwesomeIcon key={i} icon={['fab', t]} /> ) })}
+            { data.icons.map((t, i) => { return ( <FontAwesomeIcon key={i} icon={['fab', t]} /> ) }) }
           </Row>
           <Row><p>{ data.theme }</p></Row>
           <Row className="text-container">
@@ -60,9 +59,11 @@ class Project extends React.Component {
             </Row>
             : null
           }
-        <Link to={{ pathname: "/projects" }}>
-          <ArrowLeftOutlined /> <br /> Back to Projects!
-        </Link>  
+        <div className="back-btn">
+          <Link to={{ pathname: "/projects" }}>
+            <ArrowLeftOutlined /> <br /> Back to Projects!
+          </Link>
+        </div>
       </Content>
     );
   }

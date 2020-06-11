@@ -20,13 +20,13 @@ const ProjectData = [
     title: 'Tetris', 
     desc: 'A vanilla JavaScript, HTML and CSS Tetris game.',
     icons: ['js-square', 'html5', 'css3-alt'],
+    theme: null,
     slides: null,
     lessons: ['How to create a game using just JS, HTML and CSS'],
     contributions: null,
     github: 'https://github.com/sunnyfeng17/tetris',
     website: 'https://sunnyfeng.co.nz/tetris',
     mockup: null
-
   },
   { 
     projectId: 'learnfromakiwi-card', 
@@ -50,13 +50,13 @@ const ProjectData = [
     title: 'Money Busters', 
     desc: 'A webapp to manage student finances. Users are prompted to enter their expenses and income, then they are able to view their spending allowance and more.',
     icons: ['node-js', 'html5', 'css3-alt'],
+    theme: null,
     slides: require('../videos/project-slides/money-busters.mp4'),
     lessons: ['Node.js', 'Client side validation', 'How to use git collaboratively'],
     contributions: ['I mainly worked on the front-end of the webapp'],
     github: 'https://github.com/sunnyfeng17/MoneyBusters',
     website: null,
     mockup: require('../images/mockups/money-busters.jpg')
-
   },
   { 
     projectId: 'scammr-card', 
@@ -65,6 +65,7 @@ const ProjectData = [
     title: 'Scammr',
     desc: 'An android app using keyword detection to generate a risk score, to alert the user through phone vibrations.',
     icons: ['android', 'java'],
+    theme: null,
     slides: require('../videos/project-slides/scammr.mp4'),
     lessons: [''],
     contributions: ['I mainly worked on the front-end of the app', 'Presenting'],
@@ -79,6 +80,7 @@ const ProjectData = [
     title: 'Task Manager',  
     desc: 'Lo-fi and hi-fi prototype of a task management system to help groups work efficiently.',
     icons: ['js-square', 'html5', 'css3-alt'],
+    theme: null,
     slides: null,
     lessons: ['Lo-fi and Hi-fi prototyping', 'UI/UX principles', 'How to do a heuristic evaluation', 'Usability Testing', 'Stakeholder maps', 'User stories', 'Personas', 'Affinity mapping', 'Balsamiq'],
     contributions: null,
@@ -108,6 +110,7 @@ const ProjectData = [
     title: 'Moving Shapes', 
     desc: 'A java program which generated shapes of different colours and sizes upon mouse click.',
     icons: ['java'],
+    theme: null,
     slides: null,
     lessons: null,
     contributions: null,

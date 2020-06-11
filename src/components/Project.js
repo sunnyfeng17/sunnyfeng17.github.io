@@ -12,9 +12,8 @@ const { Content } = Layout;
 
 class Project extends React.Component {
   render() {
-    const data = this.props.location.state.object;
-    console.log(data.contributions)
-    console.log(data.mockup)
+    const pathArr = window.location.pathname.split('/');
+    const data = JSON.parse(localStorage.getItem(pathArr[pathArr.length - 1]));
     return (
       <Content className="project-container">
         <Jumbotron fluid className="project-jumbotron">

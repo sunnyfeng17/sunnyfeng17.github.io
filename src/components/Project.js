@@ -14,6 +14,8 @@ class Project extends React.Component {
   render() {
     const pathArr = window.location.pathname.split('/');
     const data = JSON.parse(localStorage.getItem(pathArr[pathArr.length - 1]));
+    const colW = data.lessons && data.contributions ? 6 : 12;
+    console.log(colW)
     return (
       <Content className="project-container">
         <Jumbotron fluid className="project-jumbotron">
@@ -27,42 +29,32 @@ class Project extends React.Component {
           <Row className="techstack-wrapper">
             { data.icons.map((t, i) => { return ( <FontAwesomeIcon key={i} icon={['fab', t]} /> ) }) }
           </Row>
-          <Row><p>{ data.theme }</p></Row>
+          <Row className="desc-wrapper"><p>{ data.desc }</p></Row>
           <Row className="text-container">
             { data.slides !== null ? <Col xs={24} sm={24} md={12}><video src={ data.slides } className="slides" autoPlay loop muted/></Col> : null }
             { data.lessons !== null
-              ? <Col xs={24} sm={24} md={12} className="lessons-wrapper">
+              ? <Col xs={24} sm={24} md={colW} className="lessons-wrapper">
                   <h2>WHAT I LEARNT</h2>
-                  <ul>
-                    { data.lessons.map((l, i) => {     
-                      return (<li key={i}>{l}</li>) 
-                    })}
-                  </ul>
+                  <ul>{ data.lessons.map((l, i) => { return (<li key={i}>{l}</li>) }) }</ul>
                 </Col>
               : null
             }
             { data.contributions !== null
-              ? <Col xs={24} sm={24} md={12}className="contributions-wrapper">
+              ? <Col xs={24} sm={24} md={colW} className="contributions-wrapper">
                   <h2>MY CONTRIBUTIONS</h2>
-                  <ul>
-                    { data.contributions.map((l, i) => {     
-                      return (<li key={i}>{l}</li>) 
-                    })}
-                  </ul>
+                  <ul>{ data.contributions.map((l, i) => { return (<li key={i}>{l}</li>) }) }</ul>
                 </Col>
               : null
             }
           </Row>
           { data.mockup !== null
             ? <Row className="mockup"> 
-              <img src={data.mockup} alt="mockup"/>
-            </Row>
+                <img src={data.mockup} alt="mockup"/>
+              </Row>
             : null
           }
         <div className="back-btn">
-          <Link to={{ pathname: "/projects" }}>
-            <ArrowLeftOutlined /> <br /> Back to Projects!
-          </Link>
+          <Link to={{ pathname: "/projects" }}><ArrowLeftOutlined /><br/>Back to Projects!</Link>
         </div>
       </Content>
     );

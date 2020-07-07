@@ -4,7 +4,7 @@ const ProjectData = [
     url: 'personal-website',
     video: require('../videos/jumbotron-videos/personal-website.mp4'),
     title: 'Personal Website',
-    desc: 'My personal website which I created, for fun and to learn, using React, EmailJS and multiple UI libraries.',
+    desc: 'What you\'re looking at now. Built in a week, consistently maintained. This is my personal website which I created, for fun and to learn, using React, EmailJS and multiple UI libraries.',
     icons: ['react', 'html5', 'sass', 'bootstrap', 'adobe', 'git-alt', 'github'],
     slides: null,
     lessons: ['React, Sass, Bootstrap/Reactstrap, Andt, EmailJs', 'Hand Drawn Effect in Illustrator', 'How to deploy a React project to github pages without losing all my work (Note to self: Don\'t git pull when you don\'t know what you\'re pulling)'],
@@ -18,9 +18,8 @@ const ProjectData = [
     url: 'tetris',
     video: require('../videos/jumbotron-videos/tetris.mp4'), 
     title: 'Tetris', 
-    desc: 'A vanilla JavaScript, HTML and CSS Tetris game.',
+    desc: 'A simple vanilla JavaScript, HTML and CSS Tetris game which I created following a tutorial, whilst adding my own features and design.',
     icons: ['js-square', 'html5', 'css3-alt'],
-    theme: null,
     slides: null,
     lessons: ['How to create a game using just JS, HTML and CSS'],
     contributions: null,
@@ -33,9 +32,8 @@ const ProjectData = [
     url: 'learnfromakiwi', 
     video: require('../videos/jumbotron-videos/learnfromakiwi.mp4'),    
     title: 'LearnFromA.Kiwi', 
-    desc: 'A platform that allows kiwis to host and attend live, interactive video classes recreating the in-person lessons experience by allowing real time feedback from instructions and social interactions between participants.',
+    desc: 'A platform that allows kiwis to host and attend live, interactive video classes recreating the in-person lessons experience by allowing real time feedback from instructions and social interactions between participants. This was created over 2 days during the Aotearoa Online Startup Weekend, following the theme \'Developing solutions that directly tackle COVID-19-related challenges\'. I worked alongside 6 other individuals from different disciplines to develop potential solutions to build learning communities and create meaningful online connections during COVID-19. Together we discussed the idea and then I worked with a designer and another developer, to build a simple prototype, while the rest of the group validated the idea and did market research.',
     icons: ['react', 'html5', 'css3-alt', 'trello', 'git-alt', 'github'],
-    theme: 'Developing solutions that directly tackle COVID-19-related challenges',
     slides: require('../videos/project-slides/learnfromakiwi.mp4'),
     lessons: ['How to use git collaboratively', 'Market validation', 'Trello, Miro'],
     contributions: ['I mainly worked on the MVP, I created the Landing, Explore Timetables and the Instructor Page'],
@@ -48,9 +46,8 @@ const ProjectData = [
     url: 'money-busters',
     video: '', //temp
     title: 'Money Busters', 
-    desc: 'A webapp to manage student finances. Users are prompted to enter their expenses and income, then they are able to view their spending allowance and more.',
+    desc: 'A webapp to manage student finances. This was created over 2 days during Summer of Tech\'s Camp 2019. I worked with 3 developers, a designer and a mentor to develop a webapp to manage student finances. Users are prompted to enter their expenses and income, then they are able to view their spending allowance. The webapp integrated the Pocket Smith API and was deployed on Heroku.',
     icons: ['node-js', 'html5', 'css3-alt'],
-    theme: null,
     slides: require('../videos/project-slides/money-busters.mp4'),
     lessons: ['Node.js', 'Client side validation', 'How to use git collaboratively'],
     contributions: ['I mainly worked on the front-end of the webapp'],
@@ -63,12 +60,11 @@ const ProjectData = [
     url: 'scammr',
     video: '', //temp   
     title: 'Scammr',
-    desc: 'An android app using keyword detection to generate a risk score, to alert the user through phone vibrations.',
+    desc: 'An android app that detects scam calls. This was created over 2 days during the Dev\'s 2019 48 Hour Hackathon, with the theme \'Build your own startup\'. I worked with 3 students to develop an android app to detect whether an incoming call is a scam or not, by using keyword detection to generate a risk score and alerting the user through phone vibrations.',
     icons: ['android', 'java'],
-    theme: null,
     slides: require('../videos/project-slides/scammr.mp4'),
-    lessons: [''],
-    contributions: ['I mainly worked on the front-end of the app', 'Presenting'],
+    lessons: ['How to create an android app using Android Studio'],
+    contributions: ['I mainly worked on the front-end of the app', 'Presenting the idea and MVP in front of the judges'],
     github: null,
     website: null,
     mockup: null
@@ -78,9 +74,8 @@ const ProjectData = [
     url: 'task-manager', 
     video: '', //temp  
     title: 'Task Manager',  
-    desc: 'Lo-fi and hi-fi prototype of a task management system to help groups work efficiently.',
+    desc: 'Lo-fi and hi-fi prototype of a task management system to help groups work efficiently. This was created for a group assignment for COMPSCI 345 (Human Computer Interactions). I worked with 3 students to create a lo-fi and hi-fi prototypes, before creating a vanilla HTML/CSS and JS website.',
     icons: ['js-square', 'html5', 'css3-alt'],
-    theme: null,
     slides: null,
     lessons: ['Lo-fi and Hi-fi prototyping', 'UI/UX principles', 'How to do a heuristic evaluation', 'Usability Testing', 'Stakeholder maps', 'User stories', 'Personas', 'Affinity mapping', 'Balsamiq'],
     contributions: null,
@@ -93,16 +88,15 @@ const ProjectData = [
     url: 'eventigate', 
     video: '', //temp    
     title: 'Eventigate', 
-    desc: 'A platform to help connect locations, individuals and volunteering groups.',
+    desc: 'A platform to help connect locations, individuals and volunteering groups. This was created over 2 days during the AUCS x KPMG 2019 Hackathon, with the theme \'Improving interactions within local communities through tech\'. I worked with 3 students to develop a website to allow locations to easily host events, volunteering groups to easily find locations and individuals to easily find groups. This also won the \'Best Presentation\' award at the Hackathon.',
     icons: ['html5', 'css3-alt'],
-    theme: 'Improving interactions within local communities through tech.',
     slides: require('../videos/project-slides/eventigate.mp4'),
     lessons: null,
-    contributions: ['I mainly worked on the frontend / design of the website', 'Presenting'],
+    contributions: ['I mainly worked on the frontend / design of the website', 'Presenting the idea and MVP in front of the judges'],
     github: 'https://github.com/KimberleyEvans-Parker/Eventigate',
     website: null,
     mockup: require('../images/mockups/eventigate.jpg'),
-  },
+  }/*,
   { 
     projectId: 'moving-shapes-card', 
     url: 'moving-shapes',
@@ -118,6 +112,7 @@ const ProjectData = [
     website: null,
     mockup: null
   }
+  */
 ]
 
 export default ProjectData;

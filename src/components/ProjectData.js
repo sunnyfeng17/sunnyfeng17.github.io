@@ -104,7 +104,6 @@ const ProjectData = [
     title: 'Moving Shapes', 
     desc: 'A java program which generated shapes of different colours and sizes upon mouse click.',
     icons: ['java'],
-    theme: null,
     slides: null,
     lessons: null,
     contributions: null,

@@ -38,7 +38,7 @@ const ProjectData = [
     lessons: ['How to use git collaboratively', 'Market validation', 'Trello, Miro'],
     contributions: ['I mainly worked on the MVP, I created the Landing, Explore Timetables and the Instructor Page'],
     github: 'https://github.com/rtan265/learnFromAKiwi',
-    website: 'https://www.learnfroma.kiwi',
+    website: 'https://www.learnfromakiwi.github.io',
     mockup: require('../images/mockups/learnfromakiwi.jpg')
   },
   { 

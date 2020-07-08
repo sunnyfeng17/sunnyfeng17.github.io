@@ -16,7 +16,9 @@
     height: 20em;
     width: 20em;
     max-width: 100% !important;
+    opacity: 0.8;
     &:hover {
+        opacity: 1;
         transform: scale(1.05);
         border-radius: 8px;
         z-index: 1;

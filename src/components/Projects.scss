@@ -6,7 +6,6 @@
 .project-grid {
     width: 80em;
     margin: 0em auto 0em auto;
-    display: inline-block; 
     text-align: left;
     a {
         width: min-content;
@@ -17,12 +16,19 @@
     height: 20em;
     width: 20em;
     max-width: 100% !important;
-    display: inline-block;
     &:hover {
         transform: scale(1.05);
         border-radius: 8px;
         z-index: 1;
     }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
 }
 
 #personal-website-card {

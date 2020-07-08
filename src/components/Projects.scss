@@ -17,6 +17,7 @@
     height: 20em;
     width: 20em;
     max-width: 100% !important;
+    display: inline-block;
     &:hover {
         transform: scale(1.05);
         border-radius: 8px;

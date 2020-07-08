@@ -4,9 +4,9 @@
 }
 
 .project-grid {
-    width: 80em;
+    max-width: 80em;
     margin: 0em auto 0em auto;
-    text-align: left;
+    text-align: center;
     a {
         width: min-content;
     }
@@ -21,14 +21,6 @@
         border-radius: 8px;
         z-index: 1;
     }
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-
 }
 
 #personal-website-card {
@@ -74,4 +66,16 @@
 #moving-shapes-card {
     background-image: url("../images/project-cards/moving-shapes-card.jpg");
     background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .project-grid {
+        max-width: 20em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .project-grid {
+        max-width: 60em;
+    }
 }

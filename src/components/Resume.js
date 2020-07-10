@@ -12,7 +12,7 @@ class Projects extends React.Component {
       return (
         <Content className="resume-container">
           <h1>Resume</h1>
-          <p>Have a look at my resume or download it <a href="/resume/sunnyfeng-cv.pdf" download>here!</a></p>
+          <p>Have a look at my resume or download it <a href="/resume/sunnyfeng-cv.pdf" download>here</a>!</p>
           <img alt="Sunny's Resume" src={ ResumeImg } />
         </Content>
       );

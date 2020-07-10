@@ -7,11 +7,16 @@
         height: 60em;
         padding-bottom: 3em;
     }
-    .resume-container a {
+    a {
         text-decoration: underline;
-        color: #ffffff;
+        color: #ffffff;  
+        &:hover {
+            text-decoration: underline;
+            color: #1890ff;
+        }
     }
 }
+
 
 @media (max-width: 768px) {
     .resume-container {

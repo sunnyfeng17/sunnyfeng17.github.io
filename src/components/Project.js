@@ -49,7 +49,7 @@ class Project extends React.Component {
           </Row>
           { data.mockup !== null
             ? <Row className="mockup"> 
-                <img src={data.mockup} alt="mockup"/>
+                <img class="none" src={data.mockup} alt="mockup"/>
               </Row>
             : null
           }

@@ -3,7 +3,7 @@ import { Layout } from 'antd';
 
 import './Resume.scss';
 
-import ResumeImg from '../images/resumes/sunnyfeng-resume.jpg'
+import ResumeImg from '../images/resumes/sunnyfeng-cv.jpg'
 
 const { Content } = Layout;
 

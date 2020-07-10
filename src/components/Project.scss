@@ -130,9 +130,9 @@
 }
 
 .mockup {
+    align-items: flex-start;
     img {
         max-width: 90%;
-        max-height: 90%;
         object-fit: contain;
         margin: 1em auto 0em auto;
     }
@@ -176,11 +176,6 @@
             margin: 0em 0.5em 0.1em 0.5em;
         }
     }
-    // .mockup {
-    //     img {
-    //         width: 50em;
-    //     }
-    // }
     .back-btn {
         padding: 1em 0em 2em 0em;
         a {
@@ -224,11 +219,6 @@
             margin: 0em 0.5em 0.1em 0.5em;
         }
     }
-    // .mockup {
-    //     img {
-    //         width: 25em;
-    //     }
-    // }
     .back-btn {
         padding: 1em 0em 2em 0em;
         a {

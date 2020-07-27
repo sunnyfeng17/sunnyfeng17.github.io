@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca65f323.chunk.css",
-    "main.js": "/static/js/main.7a89f183.chunk.js",
-    "main.js.map": "/static/js/main.7a89f183.chunk.js.map",
+    "main.css": "/static/css/main.9ba4ad35.chunk.css",
+    "main.js": "/static/js/main.bf0bada4.chunk.js",
+    "main.js.map": "/static/js/main.bf0bada4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a1a29272.js",
     "runtime-main.js.map": "/static/js/runtime-main.a1a29272.js.map",
     "static/css/2.80906d50.chunk.css": "/static/css/2.80906d50.chunk.css",
     "static/js/2.ce5e6878.chunk.js": "/static/js/2.ce5e6878.chunk.js",
     "static/js/2.ce5e6878.chunk.js.map": "/static/js/2.ce5e6878.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9da8fb285177d37acb49325e1dee7717.js": "/precache-manifest.9da8fb285177d37acb49325e1dee7717.js",
+    "precache-manifest.430cc3da279cd8f369db30ba05000d67.js": "/precache-manifest.430cc3da279cd8f369db30ba05000d67.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.80906d50.chunk.css.map": "/static/css/2.80906d50.chunk.css.map",
-    "static/css/main.ca65f323.chunk.css.map": "/static/css/main.ca65f323.chunk.css.map",
+    "static/css/main.9ba4ad35.chunk.css.map": "/static/css/main.9ba4ad35.chunk.css.map",
     "static/js/2.ce5e6878.chunk.js.LICENSE.txt": "/static/js/2.ce5e6878.chunk.js.LICENSE.txt",
     "static/media/IMG_1.JPG": "/static/media/IMG_1.5820fe02.JPG",
     "static/media/IMG_10.JPG": "/static/media/IMG_10.135582cd.JPG",
@@ -38,7 +38,7 @@
     "static/media/construction.png": "/static/media/construction.12c1000e.png",
     "static/media/continue.ca963f77.svg": "/static/media/continue.ca963f77.svg",
     "static/media/LandingPage.scss": "/static/media/doIt.7382c5e4.png",
-    "static/media/Projects.scss": "/static/media/tetris-card.7337b398.jpg",
+    "static/media/Projects.scss": "/static/media/upskill-card.de3b7171.jpg",
     "static/media/eventigate.mp4": "/static/media/eventigate.67d7e8e9.mp4",
     "static/media/eventigate.jpg": "/static/media/eventigate.da6c20b4.jpg",
     "static/media/hamburger.4c2285b8.svg": "/static/media/hamburger.4c2285b8.svg",
@@ -51,7 +51,7 @@
     "static/media/personal-website.mp4": "/static/media/personal-website.1b15ab1c.mp4",
     "static/media/personal-website.jpg": "/static/media/personal-website.4a442e6a.jpg",
     "static/media/scammr.mp4": "/static/media/scammr.720c37ba.mp4",
-    "static/media/sunnyfeng-cv.jpg": "/static/media/sunnyfeng-cv.0bd39a41.jpg",
+    "static/media/sunnyfeng-cv.jpg": "/static/media/sunnyfeng-cv.09f72370.jpg",
     "static/media/sunnyfeng.b8e18f16.svg": "/static/media/sunnyfeng.b8e18f16.svg",
     "static/media/sunnyfeng.png": "/static/media/sunnyfeng.cfeb720f.png",
     "static/media/tardis.jpg": "/static/media/tardis.e6e0fd6b.jpg",
@@ -63,7 +63,7 @@
     "static/js/runtime-main.a1a29272.js",
     "static/css/2.80906d50.chunk.css",
     "static/js/2.ce5e6878.chunk.js",
-    "static/css/main.ca65f323.chunk.css",
-    "static/js/main.7a89f183.chunk.js"
+    "static/css/main.9ba4ad35.chunk.css",
+    "static/js/main.bf0bada4.chunk.js"
   ]
 }

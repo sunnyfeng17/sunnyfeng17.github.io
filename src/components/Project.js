@@ -15,7 +15,6 @@ class Project extends React.Component {
     const pathArr = window.location.pathname.split('/');
     const data = JSON.parse(localStorage.getItem(pathArr[pathArr.length - 1]));
     const colW = data.lessons && data.contributions ? 6 : 12;
-    console.log(colW)
     return (
       <Content className="project-container">
         <Jumbotron fluid className="project-jumbotron">
@@ -49,7 +48,7 @@ class Project extends React.Component {
           </Row>
           { data.mockup !== null
             ? <Row className="mockup"> 
-                <img class="none" src={data.mockup} alt="mockup"/>
+                <img className="none" src={data.mockup} alt="mockup"/>
               </Row>
             : null
           }

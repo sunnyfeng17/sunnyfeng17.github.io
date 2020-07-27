@@ -13,6 +13,20 @@ const ProjectData = [
     website: 'https://www.sunnyfeng.co.nz',
     mockup: require('../images/mockups/personal-website.jpg')
   },
+  // { 
+  //   projectId: 'upskill-card',
+  //   url: 'upskill',
+  //   video: '',
+  //   title: 'Upskill',
+  //   desc: '',
+  //   icons: ['react', 'html5', 'css3-alt', 'bootstrap', 'git-alt', 'github', 'node-js',],
+  //   slides: null,
+  //   lessons: null,
+  //   contributions: null,
+  //   github: null,
+  //   website: null,
+  //   mockup: null
+  // },
   { 
     projectId: 'tetris-card', 
     url: 'tetris',

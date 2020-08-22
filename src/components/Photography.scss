@@ -1,3 +1,5 @@
+@import "../utilities/variables";
+
 .photography-container {
     padding-top: 7em;
 }
@@ -7,7 +9,7 @@
     margin: auto;
     img {
         width: 28em;
-        background-color: #ffffff;
+        background-color: $dm-gallery-border;
         border-radius: 0.5em;
         padding: 1em 1em 1em 1em;
         margin: 0.5em 0.5em 2em 0.5em;

@@ -1,3 +1,5 @@
+@import "../utilities/variables";
+
 .resume-container {
     padding-top: 7em;
     h1 {
@@ -9,10 +11,10 @@
     }
     a {
         text-decoration: underline;
-        color: #ffffff;  
+        color: $dm-main-white;  
         &:hover {
             text-decoration: underline;
-            color: #1890ff;
+            color: $dm-link-blue;
         }
     }
 }
@@ -24,7 +26,7 @@
             height: 40em;
         }
         a {
-            color: #1890ff;
+            color: $dm-link-blue;
         }
         p {
             padding: 0em 1em 0em 1em;

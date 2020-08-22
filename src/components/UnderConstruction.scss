@@ -1,3 +1,5 @@
+@import "../utilities/variables";
+
 .construction-wrapper{
     padding: 4em 1em 2em 1em;
     min-height: 80%;
@@ -6,7 +8,7 @@
     .construction-text {
         font-size: 3em;
         font-weight: 700;
-        color: #74C1FF;
+        color: $dm-main-blue;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
         text-align: center;

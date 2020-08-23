@@ -9,24 +9,52 @@ const ProjectData = [
     slides: null,
     lessons: ['React, Sass, Bootstrap/Reactstrap, Andt, EmailJs', 'Hand Drawn Effect in Illustrator', 'How to deploy a React project to github pages without losing all my work (Note to self: Don\'t git pull when you don\'t know what you\'re pulling)'],
     contributions: null,
-    github: 'https://github.com/sunnyfeng17/sunnyfeng17.github.io', // Make public before deploying
+    github: 'https://github.com/sunnyfeng17/sunnyfeng17.github.io',
     website: 'https://www.sunnyfeng.co.nz',
     mockup: require('../images/mockups/personal-website.jpg')
   },
-  // { 
-  //   projectId: 'upskill-card',
-  //   url: 'upskill',
-  //   video: '',
-  //   title: 'Upskill',
-  //   desc: '',
-  //   icons: ['react', 'html5', 'css3-alt', 'bootstrap', 'git-alt', 'github', 'node-js',],
-  //   slides: null,
-  //   lessons: null,
-  //   contributions: null,
-  //   github: null,
-  //   website: null,
-  //   mockup: null
-  // },
+  { 
+    projectId: 'timeline-card',
+    url: 'timeline',
+    video: '',
+    title: 'Timeline',
+    desc: '',
+    icons: [],
+    slides: null,
+    lessons: null,
+    contributions: null,
+    github: null,
+    website: null,
+    mockup: null
+  },
+  { 
+    projectId: 'kafe-krayon-card',
+    url: 'kafe-krayon',
+    video: '',
+    title: 'Kafe Krayon',
+    desc: '',
+    icons: [],
+    slides: null,
+    lessons: null,
+    contributions: null,
+    github: null,
+    website: null,
+    mockup: null
+  },
+  { 
+    projectId: 'upskill-card',
+    url: 'upskill',
+    video: '',
+    title: 'Upskill',
+    desc: '',
+    icons: [],
+    slides: null,
+    lessons: null,
+    contributions: null,
+    github: null,
+    website: null,
+    mockup: null
+  },
   { 
     projectId: 'tetris-card', 
     url: 'tetris',
@@ -58,7 +86,7 @@ const ProjectData = [
   { 
     projectId: 'money-busters-card', 
     url: 'money-busters',
-    video: '', //temp
+    video: '', 
     title: 'Money Busters', 
     desc: 'A webapp to manage student finances. This was created over 2 days during Summer of Tech\'s Camp 2019. I worked with 3 developers, a designer and a mentor to develop a webapp to manage student finances. Users are prompted to enter their expenses and income, then they are able to view their spending allowance. The webapp integrated the Pocket Smith API and was deployed on Heroku.',
     icons: ['node-js', 'html5', 'css3-alt'],
@@ -72,7 +100,7 @@ const ProjectData = [
   { 
     projectId: 'scammr-card', 
     url: 'scammr',
-    video: '', //temp   
+    video: '',    
     title: 'Scammr',
     desc: 'An android app that detects scam calls. This was created over 2 days during the Dev\'s 2019 48 Hour Hackathon, with the theme \'Build your own startup\'. I worked with 3 students to develop an android app to detect whether an incoming call is a scam or not, by using keyword detection to generate a risk score and alerting the user through phone vibrations.',
     icons: ['android', 'java'],
@@ -86,7 +114,7 @@ const ProjectData = [
   { 
     projectId: 'task-manager-card', 
     url: 'task-manager', 
-    video: '', //temp  
+    video: '',   
     title: 'Task Manager',  
     desc: 'Lo-fi and hi-fi prototype of a task management system to help groups work efficiently. This was created for a group assignment for COMPSCI 345 (Human Computer Interactions). I worked with 3 students to create a lo-fi and hi-fi prototypes, before creating a vanilla HTML/CSS and JS website.',
     icons: ['js-square', 'html5', 'css3-alt'],
@@ -100,7 +128,7 @@ const ProjectData = [
   { 
     projectId: 'eventigate-card', 
     url: 'eventigate', 
-    video: '', //temp    
+    video: '',     
     title: 'Eventigate', 
     desc: 'A platform to help connect locations, individuals and volunteering groups. This was created over 2 days during the AUCS x KPMG 2019 Hackathon, with the theme \'Improving interactions within local communities through tech\'. I worked with 3 students to develop a website to allow locations to easily host events, volunteering groups to easily find locations and individuals to easily find groups. This also won the \'Best Presentation\' award at the Hackathon.',
     icons: ['html5', 'css3-alt'],

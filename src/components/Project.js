@@ -18,7 +18,6 @@ class Project extends React.Component {
     return (
       <Content className="project-container">
         <Jumbotron fluid className="project-jumbotron">
-          <video src={ data.video } autoPlay loop muted/>
           <div className="banner">
             <h1>{ data.title }</h1>
             { data.website != null ? <a href={ data.website } rel="noopener noreferrer" target="_blank"><GlobalOutlined /></a> : null }
@@ -30,10 +29,10 @@ class Project extends React.Component {
           </Row>
           <Row className="desc-wrapper"><p>{ data.desc }</p></Row>
           <Row className="text-container">
-            { data.slides !== null ? <Col xs={24} sm={24} md={12}><video src={ data.slides } className="slides" autoPlay loop muted/></Col> : null }
+            { data.video !== null ? <Col xs={24} sm={24} md={12}><video src={ data.video } className="demo-slide" autoPlay loop muted/></Col> : null }
             { data.lessons !== null
               ? <Col xs={24} sm={24} md={colW} className="lessons-wrapper">
-                  <h2>WHAT I LEARNT</h2>
+                  <h2>LESSONS LEARNT</h2>
                   <ul>{ data.lessons.map((l, i) => { return (<li key={i}>{l}</li>) }) }</ul>
                 </Col>
               : null

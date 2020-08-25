@@ -12,7 +12,7 @@
 }
 
 .project-jumbotron {
-    background-color: #000000;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     position: relative;
     overflow: hidden;
     height: auto;
@@ -71,36 +71,48 @@
         font-size: 4em !important;
         margin: 0em 0.5em 0.1em 0.5em;
     }
-    .fa-react {
+    .fa-react:hover {
         color: #61dbfb;
     } 
-    .fa-js-square {
+    .fa-js-square:hover {
         color: #f0d91d;
     }
-    .fa-html5 {
+    .fa-html5:hover {
         color: #ea6228;
     }
-    .fa-css3-alt {
+    .fa-css3-alt:hover {
         color: #2da4d6;
     } 
-    .fa-sass {
+    .fa-sass:hover {
         color: #c76495;
     }
-    .fa-bootstrap {
+    .fa-bootstrap:hover {
         color: #5d3e88;
     } 
-    .fa-git-alt {
+    .fa-git-alt:hover {
         color: #e94e32;
     }
-    .fa-github {
+    .fa-github:hover {
         color: #1a1e22;
     }  
-    .fa-trello {
+    .fa-trello:hover {
         color: #cecfcf;
+    }
+    .fa-adobe:hover {
+        color: #ff0000;
+    }
+    .fa-node-js:hover {
+        color: #88C349;
+    }
+    .fa-android:hover {
+        color: #32DE84;
+    }
+    .fa-java:hover {
+        color: #517E9D;
     }
 }
 
-.slides {
+.demo-slide {
     width: 90%;
     margin: 1em auto 0em auto;
 }

@@ -1,8 +1,11 @@
 @import "../utilities/variables";
 
 .landing-container {
-    height: 100%;
-    background: linear-gradient(131deg, $gradient-start, $gradient-end);
+    @include themed() {
+        background: linear-gradient(131deg, t($gradient-start), t($gradient-end));
+    }
+    height: 100vh;
+    text-align: center;
     -webkit-animation: AnimationName 7s ease infinite;
     -moz-animation: AnimationName 7s ease infinite;
     -o-animation: AnimationName 7s ease infinite;

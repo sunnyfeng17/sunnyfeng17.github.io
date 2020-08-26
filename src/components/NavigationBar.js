@@ -6,7 +6,8 @@ import { Collapse, Navbar, NavbarToggler, Nav, NavItem} from 'reactstrap';
 import './NavigationBar.scss';
 
 import { ReactComponent as Hamburger} from '../images/hamburger.svg';
-import sunny from '../images/sunnyfeng.png';
+import whitelogo from '../images/logo/sunnyfeng.png';
+import blacklogo from '../images/logo/sunnyfeng-black.png';
 
 const links = [
   { link: "/home", text:"Home" },
@@ -42,13 +43,13 @@ class NavigationBar extends React.Component {
         this.toggleNavbar();
       }
   }
-
+  
   render() {
     return (
       <div>
         <Navbar expand="lg">
-        <LinkContainer exact to="/"><img className="name" src={sunny} alt="Sunny Feng"/></LinkContainer>
-          <NavbarToggler onClick={this.toggleNavbar} aria-controls="responsive-navbar-nav" style={{borderColor: "#252525", padding: "0"}}><Hamburger className="hamburger"/></NavbarToggler>
+        <LinkContainer exact to="/"><img src={this.props.mode === 'sun' ? blacklogo : whitelogo} className="logo" alt="Sunny Feng"/></LinkContainer>
+          <NavbarToggler onClick={this.toggleNavbar} aria-controls="responsive-navbar-nav" style={{padding: "0"}}><Hamburger className="hamburger" fill="black"/></NavbarToggler>
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               {

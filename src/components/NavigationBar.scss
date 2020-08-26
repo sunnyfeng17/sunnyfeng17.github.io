@@ -1,41 +1,59 @@
 @import "../utilities/variables";
 
 .navbar {
-    background-color: $dm-main-black;
+    @include themed() {
+        background-color: t($nav-background);
+    }
     position: fixed !important;
     width: 100%;
     z-index: 1020;
-    .name {
+    .logo {
         margin: 1.5em 2em 1em 1.5em;
-        height: 3em;
+        width: 12em;
         cursor: pointer;
     }
     .nav-item {
-        margin: 1vw 1vw 1vw 0vw;
-        color: $dm-main-white;
+        @include themed() {
+            color: t($nav-text);
+        }
+        margin: 1vw 1vw 1vw 0vw; 
         padding-bottom: 1vw;
         padding: 1em 1em 0.5em 1em;
         cursor: pointer;
     }
     .nav-item:hover { 
-        color: $dm-link-blue;
-        border-bottom: 2px solid $dm-link-blue;
+        @include themed() {
+            color: t($nav-hover);
+            border-bottom: 2px solid t($nav-hover);
+        }   
     }
     .nav-item.active { 
-        color: $dm-link-blue;
-        border-bottom: 2px solid $dm-link-blue;
+        @include themed() {
+            color: t($nav-active);
+            border-bottom: 2px solid t($nav-active);
+        }
     }
     a.exlink {
+        @include themed() {
+            color: t($nav-text);
+        }  
         padding-bottom: 0.5em;
         margin-right: 2vw;
-        color: $dm-gallery-border;
         font-size: 2em;
     }
     a.exlink:hover { 
-        color: $dm-link-blue;
+        @include themed() {
+            color: t($nav-active);
+        }  
     }
     .hamburger {
         height: 1.8em;
-        border-color: $dm-main-black;
+        @include themed() {
+            border-color: t($nav-burger);
+        }  
+    } 
+    .ml-auto {
+        margin-right: 5em;
     }
 }
+

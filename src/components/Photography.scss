@@ -8,8 +8,10 @@
     max-width: 90%;
     margin: auto;
     img {
+        @include themed() {
+            background-color: t($photography-frames);
+        }  
         width: 28em;
-        background-color: $dm-gallery-border;
         border-radius: 0.5em;
         padding: 1em 1em 1em 1em;
         margin: 0.5em 0.5em 2em 0.5em;

@@ -3,7 +3,7 @@ import { Layout } from 'antd';
 
 import './Resume.scss';
 
-import ResumeImg from '../images/resumes/sunnyfeng-cv.jpg'
+import ResumeImg from '../images/resumes/resume.jpg'
 
 const { Content } = Layout;
 
@@ -12,7 +12,7 @@ class Projects extends React.Component {
       return (
         <Content className="resume-container">
           <h1>Resume</h1>
-          <p>Have a look at my resume or download it <a href="/resume/sunnyfeng-cv.pdf" download>here</a>!</p>
+          <p>Have a look at my resume or download it <a href="/resume/Sunny Feng - Resume.pdf" download>here</a>!</p>
           <img alt="Sunny's Resume" src={ ResumeImg } />
         </Content>
       );

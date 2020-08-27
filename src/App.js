@@ -17,7 +17,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-        dark: false
+        dark: true
     };
     this.changeTheme = this.changeTheme.bind(this);
   }
@@ -29,16 +29,20 @@ class App extends React.Component {
   render() {
     const { location } = this.props
     return (
+      <>
         <main className={"theme " + (this.state.light ? "theme--light" : "theme--dark")}>
           <div className="App">
             { location.pathname !== "/" && location.pathname !== '/project/personal-website' && location.pathname !== '/project/timeline' && location.pathname !== '/project/kafe-krayon' && location.pathname !== '/project/upskill' && location.pathname !== '/project/tetris' && location.pathname !== '/project/learnfromakiwi' && location.pathname !== '/project/money-busters' && location.pathname !== '/project/scammr' && location.pathname !== '/project/task-manager' && location.pathname !== '/project/eventigate' && location.pathname !== '/project/moving-shapes'
-            ? <NavigationBar mode={this.state.light ? 'sun' : 'moon'}/>
+            ? <div>
+                <NavigationBar mode={this.state.light ? 'light' : 'dark'}/>
+                <img src={this.state.light ? moon : sun} className="theme-toggle" alt="theme-toggle" onClick={this.changeTheme}></img>
+              </div>
             : null
             }
             <Routes />
-            <img src={this.state.light ? moon : sun} className="theme-toggle" alt="theme-toggle" onClick={this.changeTheme}></img>
           </div>
         </main>
+      </>
     );
   }
 }

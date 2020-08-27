@@ -5,9 +5,10 @@ import { Collapse, Navbar, NavbarToggler, Nav, NavItem} from 'reactstrap';
 
 import './NavigationBar.scss';
 
-import { ReactComponent as Hamburger} from '../images/hamburger.svg';
-import whitelogo from '../images/logo/sunnyfeng.png';
-import blacklogo from '../images/logo/sunnyfeng-black.png';
+import { ReactComponent as DmHamburger} from '../images/dm-hamburger.svg';
+import { ReactComponent as LmHamburger} from '../images/lm-hamburger.svg';
+import whitelogo from '../images/logo/sunnyfeng-w.png';
+import blacklogo from '../images/logo/sunnyfeng-b.png';
 
 const links = [
   { link: "/home", text:"Home" },
@@ -48,8 +49,8 @@ class NavigationBar extends React.Component {
     return (
       <div>
         <Navbar expand="lg">
-        <LinkContainer exact to="/"><img src={this.props.mode === 'sun' ? blacklogo : whitelogo} className="logo" alt="Sunny Feng"/></LinkContainer>
-          <NavbarToggler onClick={this.toggleNavbar} aria-controls="responsive-navbar-nav" style={{padding: "0"}}><Hamburger className="hamburger" fill="black"/></NavbarToggler>
+        <LinkContainer exact to="/"><img src={this.props.mode === 'light' ? blacklogo : whitelogo} className="logo" alt="Sunny Feng"/></LinkContainer>
+          <NavbarToggler onClick={this.toggleNavbar} aria-controls="responsive-navbar-nav" style={{padding: "0"}}>{this.props.mode === 'light' ? <LmHamburger className="hamburger" /> : <DmHamburger className="hamburger"/> }</NavbarToggler>
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               {

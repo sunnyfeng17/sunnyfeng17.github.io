@@ -1,11 +1,9 @@
-$logo: 'logo';
 $gradient-start: 'gradient-start';
 $gradient-end: 'gradient-end';
 $main-background-1: 'main-background-1';
 $main-background-2: 'main-background-2';
 $main-background-3: 'main-background-3';
 $nav-background: 'nav-background';
-$nav-burger: 'nav-burger';
 $nav-text: 'nav-text';
 $nav-hover: 'nav-hover';
 $nav-active: 'nav-active';
@@ -21,14 +19,12 @@ $button-text-hover: 'button-text-hover';
 
 $themes: (
   light: (
-    $logo: url("../images/logo/sunnyfeng.png"),
     $gradient-start: #FC00FF,
     $gradient-end: #00DBDE,
     $main-background-1: #d7d7f3,    
     $main-background-2: #9dc0f5,
     $main-background-3: #8ee7e1,
     $nav-background: #FFFFFF,
-    $nav-burger: #ACABAB,
     $nav-text: #000000,
     $nav-hover: #1890FF,
     $nav-active: #1890FF,
@@ -43,14 +39,12 @@ $themes: (
     $button-text-hover: #FFFFFF,
   ),
   dark: (
-    $logo: url("../images/logo/sunnyfeng.png"),
     $gradient-start: #FC00FF,
     $gradient-end: #00DBDE,
     $main-background-1: #252525,
     $main-background-2: #252525,
     $main-background-3: #252525,
     $nav-background: #252525,
-    $nav-burger: #252525,
     $nav-text: #FFFFFF,
     $nav-hover: #1890FF,
     $nav-active: #1890FF,

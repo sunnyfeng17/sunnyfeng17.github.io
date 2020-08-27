@@ -48,9 +48,6 @@
     }
     .hamburger {
         height: 1.8em;
-        @include themed() {
-            border-color: t($nav-burger);
-        }  
     } 
     .ml-auto {
         margin-right: 5em;

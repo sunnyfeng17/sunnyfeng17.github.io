@@ -3,6 +3,7 @@ $gradient-end: 'gradient-end';
 $main-background-1: 'main-background-1';
 $main-background-2: 'main-background-2';
 $main-background-3: 'main-background-3';
+$project-background: 'project-background';
 $nav-background: 'nav-background';
 $nav-text: 'nav-text';
 $nav-hover: 'nav-hover';
@@ -16,6 +17,7 @@ $button-background: 'button-background';
 $button-text: 'button-text';
 $button-background-hover: 'button-background-hover';
 $button-text-hover: 'button-text-hover';
+$github-icon: 'github-icon';
 
 $themes: (
   light: (
@@ -24,6 +26,7 @@ $themes: (
     $main-background-1: #d7d7f3,    
     $main-background-2: #9dc0f5,
     $main-background-3: #8ee7e1,
+    $project-background: aliceblue,
     $nav-background: #FFFFFF,
     $nav-text: #000000,
     $nav-hover: #1890FF,
@@ -37,6 +40,7 @@ $themes: (
     $button-text: #FFFFFF,
     $button-background-hover: #74C1FF,
     $button-text-hover: #FFFFFF,
+    $github-icon: #1A1E22,
   ),
   dark: (
     $gradient-start: #FC00FF,
@@ -44,6 +48,7 @@ $themes: (
     $main-background-1: #252525,
     $main-background-2: #252525,
     $main-background-3: #252525,
+    $project-background: #252525,
     $nav-background: #252525,
     $nav-text: #FFFFFF,
     $nav-hover: #1890FF,
@@ -57,6 +62,7 @@ $themes: (
     $button-text: #252525,
     $button-background-hover: #74C1FF,
     $button-text-hover: #FFFFFF,
+    $github-icon: #FFFFFF,
   ),
 );
 

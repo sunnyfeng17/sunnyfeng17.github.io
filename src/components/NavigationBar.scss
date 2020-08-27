@@ -54,15 +54,18 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 321px) {
     .navbar {
+        .logo {
+            margin: 1.5em 2em 1em 0.5em;
+        }
         .ml-auto {
             margin-right: 0em;
         }
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
     .navbar {
         .ml-auto {
             margin-right: 0em;

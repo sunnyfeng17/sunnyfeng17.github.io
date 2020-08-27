@@ -22,16 +22,41 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+.theme-toggle-project {
+    width: 2.5em;
+    position: fixed;
+    margin: 2em 3em 0em 0em;
+    right: 0;
+    top: 0;
+    z-index: 2000;
+    cursor: pointer;
+}
+
+
+@media (max-width: 321px) {
     .theme-toggle {
-        margin: 2.2em 7em 0em 0em;
+        margin: 2.2em 6em 0em 0em;
+    }
+    .theme-toggle-project {
+        margin: 1em 1em 0em 0em;
     }
 }
 
+@media (min-width: 321px) and (max-width: 768px) {
+    .theme-toggle {
+        margin: 2.2em 7em 0em 0em;
+    }
+    .theme-toggle-project {
+        margin: 1em 1em 0em 0em;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 1000px) {
     .theme-toggle {
         margin: 2.2em 8em 0em 0em;
+    }
+    .theme-toggle-project {
+        margin: 1em 1em 0em 0em;
     }
 }
 

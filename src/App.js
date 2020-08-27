@@ -37,7 +37,10 @@ class App extends React.Component {
                 <NavigationBar mode={this.state.light ? 'light' : 'dark'}/>
                 <img src={this.state.light ? moon : sun} className="theme-toggle" alt="theme-toggle" onClick={this.changeTheme}></img>
               </div>
-            : null
+            : 
+              (location.pathname !== "/" 
+              ? <div><img src={this.state.light ? moon : sun} className="theme-toggle-project" alt="theme-toggle" onClick={this.changeTheme}></img></div>
+              : null)
             }
             <Routes />
           </div>

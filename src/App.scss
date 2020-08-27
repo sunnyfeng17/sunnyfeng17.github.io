@@ -1,11 +1,63 @@
 @import '~antd/dist/antd.css';
-@import "utilities/variables";
+@import './utilities/variables';
 
 .App {
     text-align: center;
     height: 100vh;
-    background-color: $dm-main-black;
     overflow-x: hidden;
+    @include themed() {
+        background-color: t($main-background-1);
+        background: -webkit-linear-gradient(to left, t($main-background-1), t($main-background-2), t($main-background-3));  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, t($main-background-1), t($main-background-2), t($main-background-3)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+
+.theme-toggle {
+    width: 2.5em;
+    position: fixed;
+    margin: 2em 3em 0em 0em;
+    right: 0;
+    top: 0;
+    z-index: 2000;
+    cursor: pointer;
+}
+
+.theme-toggle-project {
+    width: 2.5em;
+    position: fixed;
+    margin: 2em 3em 0em 0em;
+    right: 0;
+    top: 0;
+    z-index: 2000;
+    cursor: pointer;
+}
+
+
+@media (max-width: 321px) {
+    .theme-toggle {
+        margin: 2.2em 6em 0em 0em;
+    }
+    .theme-toggle-project {
+        margin: 1em 1em 0em 0em;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .theme-toggle {
+        margin: 2.2em 7em 0em 0em;
+    }
+    .theme-toggle-project {
+        margin: 1em 1em 0em 0em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .theme-toggle {
+        margin: 2.2em 8em 0em 0em;
+    }
+    .theme-toggle-project {
+        margin: 1em 1em 0em 0em;
+    }
 }
 
 .vertical-center {
@@ -18,54 +70,66 @@
 
 p {
     padding: 0em 1vw 0em 1vw;
-    color: $dm-main-white;
+    @include themed() {
+        color: t($main-paragraph);
+    }
 }
 
 /* Headings */
 
 h1 { /* Main Headings */
+    @include themed() {
+        color: t($main-heading);
+    }
     font-weight: 700;
     font-size: 4em;
-    color: $dm-main-blue;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 
 h2 { /* Home Page & 404 Page*/
+    @include themed() {
+        color: t($home-heading);
+    }
     font-weight: 700;
     font-size: 5em;
     text-align: left;
-    color: $dm-main-blue;
     padding: 0em 1vw 0em 1vw;
     -webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 h3 { /* Home Page */
+    @include themed() {
+        color: t($home-heading);
+    }
     font-weight: 700;
     font-size: 4em;
     text-align: left;
-    color: $dm-main-blue;
     padding: 0em 1vw 0em 1vw;
     -webkit-animation: text-focus-in1 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     animation: text-focus-in1 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 h4 { /* Home Page */
+    @include themed() {
+        color: t($home-heading);
+    }
     font-weight: 400;
     font-size: 3em;
     text-align: left;
-    color: $dm-main-blue;
     padding: 0em 1vw 0em 1vw;
     -webkit-animation: text-focus-in2 1.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     animation: text-focus-in2 1.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 h5 { /* Project Headings */
+    @include themed() {
+        color: t($main-heading);
+    }
     font-weight: 700;
     font-size: 4em;
     text-align: center;
-    color: $dm-main-blue;
     padding: 0em 1vw 0em 1vw;
 }
 
@@ -75,7 +139,6 @@ h5 { /* Project Headings */
     }
     h1 {
         font-size: 2.5em;
-        color: $dm-main-blue;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
         text-align: center;

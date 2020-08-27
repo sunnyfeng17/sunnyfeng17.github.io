@@ -10,7 +10,7 @@ const { Content } = Layout;
 class UnderConstruction extends React.Component {
     render() {
         return (
-            <Content style={{marginTop: "3.5em"}}>
+            <Content>
                 <div className="construction-wrapper">
                     <div className="construction-text">This page is currently under construction! <br/> Check back later for updates!</div>
                     <Link to="/404"> <img src={underConstruction} alt="Bitmoji Drilling"/></Link>

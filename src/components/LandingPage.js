@@ -4,7 +4,7 @@ import { Row, Col } from 'antd';
 
 import './LandingPage.scss';
 
-import { ReactComponent as SunnySVG } from '../images/sunnyfeng.svg';
+import { ReactComponent as SunnySVG } from '../images/logo/sunnyfeng.svg';
 import { ReactComponent as ContinueSVG} from '../images/continue.svg';
 
 class LandingPage extends React.Component {

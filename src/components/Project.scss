@@ -1,9 +1,11 @@
 @import "../utilities/variables";
 
 .project-container {
+    @include themed {
+        background-color: t($project-background);
+    }
     padding-top: 0em;
     min-height: 100% !important;
-    background-color: aliceblue;
     text-align: center;
 }
 
@@ -27,13 +29,13 @@
         background: #FFFFFF;
         min-height: 25em;
         opacity: 0.7;
-    }
-    h1 {
-        color: #000000;
-        font-size: 5em;
-        margin-bottom: 0;
-        padding-top: 1.2em;
-        padding-bottom: 0.5em;
+        h1 {
+            color: #000000;
+            font-size: 5em;
+            margin-bottom: 0;
+            padding-top: 1.2em;
+            padding-bottom: 0.5em;
+        }
     }
     p {
         font-size: 1.5em;
@@ -51,7 +53,9 @@
     margin: auto;
     text-align: left;
     h2 {
-        color: #000000;
+        @include themed {
+            color: t($main-heading);
+        }
         font-size: 1.5em;
         font-weight: 700;
         padding-top: 1em;
@@ -71,43 +75,45 @@
         font-size: 4em !important;
         margin: 0em 0.5em 0.1em 0.5em;
     }
-    .fa-react:hover {
+    .fa-react {
         color: #61dbfb;
     } 
-    .fa-js-square:hover {
+    .fa-js-square {
         color: #f0d91d;
     }
-    .fa-html5:hover {
+    .fa-html5 {
         color: #ea6228;
     }
-    .fa-css3-alt:hover {
+    .fa-css3-alt {
         color: #2da4d6;
     } 
-    .fa-sass:hover {
+    .fa-sass {
         color: #c76495;
     }
-    .fa-bootstrap:hover {
+    .fa-bootstrap {
         color: #5d3e88;
     } 
-    .fa-git-alt:hover {
+    .fa-git-alt {
         color: #e94e32;
     }
-    .fa-github:hover {
-        color: #1a1e22;
+    .fa-github {
+        @include themed {
+            color: t($github-icon)
+        }
     }  
-    .fa-trello:hover {
+    .fa-trello {
         color: #cecfcf;
     }
-    .fa-adobe:hover {
+    .fa-adobe {
         color: #ff0000;
     }
-    .fa-node-js:hover {
+    .fa-node-js {
         color: #88C349;
     }
-    .fa-android:hover {
+    .fa-android {
         color: #32DE84;
     }
-    .fa-java:hover {
+    .fa-java {
         color: #517E9D;
     }
 }
@@ -121,23 +127,20 @@
     width: 90%;
     margin: 1em auto 1em auto;
     p {
+        @include themed {
+            color: t($main-paragraph);
+        }
         margin: 1em auto 1em auto;
-        color: #000000;
         font-size: 1.2em;
     }
 }
 
-.lessons-wrapper {
+.lessons-wrapper, .contributions-wrapper {
     max-width: 100% !important;
     li {
-        padding-left: 1em;
-        text-align: left;
-    }
-}
-
-.contributions-wrapper {
-    max-width: 100% !important;
-    li {
+        @include themed {
+            color: t($main-paragraph);
+        }
         padding-left: 1em;
         text-align: left;
     }
@@ -172,9 +175,9 @@
         }
         .banner {
             min-height: 20em;
-        }
-        h1 {
-            font-size: 3em;
+            h1 {
+                font-size: 3em;
+            }
         }
         p {
             font-size: 2em;
@@ -211,9 +214,9 @@
         }
         .banner {
             min-height: 13em;
-        }
-        h1 {
-            font-size: 2em;
+            h1 {
+                font-size: 2.5em;
+            }
         }
         p {
             font-size: 1em;

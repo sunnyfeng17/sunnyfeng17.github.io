@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Layout, Row, Col } from 'antd';
 import './PageNotFound.scss';
 
-import looking from '../images/looking.png'
+import looking from '../images/looking.png';
 
 const { Content } = Layout;
 

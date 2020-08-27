@@ -10,11 +10,20 @@
         padding-bottom: 3em;
     }
     a {
+        @include themed() {
+            color: t($main-paragraph);
+        }
         text-decoration: underline;
-        color: $dm-main-white;  
         &:hover {
+            @include themed() {
+                color: t($link-hover);
+            }
             text-decoration: underline;
-            color: $dm-link-blue;
+        }
+    }
+    p {
+        @include themed() {
+            color: t($main-paragraph);
         }
     }
 }
@@ -25,7 +34,9 @@
             height: 40em;
         }
         a {
-            color: $dm-link-blue;
+            @include themed() {
+                color: t($link-hover);
+            }
         }
         p {
             padding: 0em 1em 0em 1em;

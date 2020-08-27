@@ -3,14 +3,20 @@
 .contact-container {
     padding-top: 7em;
     p {
-        color: $dm-main-white;
+        @include themed() {
+            color: t($nav-text);
+        }
     }
     a {
+        @include themed() {
+            color: t($nav-text);
+        }
         text-decoration: underline;
-        color: $dm-main-white;  
         &:hover {
             text-decoration: underline;
-            color: $dm-link-blue;
+            @include themed() {
+                color: t($link-hover);
+            }
         }
     }
 }
@@ -31,11 +37,15 @@
     .btn-secondary {
         width: 10em;
         height: 3em;
-        color: $dm-main-black;
-        background-color: $dm-main-white;
+        @include themed() {
+            background-color: t($button-background);
+            color: t($button-text);
+        }
         &:hover {
-            color: $dm-main-white;
-            background-color: $dm-main-blue;
+            @include themed() {
+                background-color: t($button-background-hover);
+                color: t($button-text-hover);
+            }
         }
     }
 }
@@ -46,7 +56,9 @@
             padding: 0.5em;
         }
         a {
-            color: #1890ff;
+            @include themed() {
+                color: t($link-hover);
+            }
         }
     }
     .form-wrapper {

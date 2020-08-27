@@ -6,13 +6,15 @@
     min-height: 80vh;
     align-items: center;
     .construction-text {
-        font-size: 3em;
-        font-weight: 700;
-        color: $dm-main-blue;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        text-align: center;
-        display: block;
+      @include themed() {
+        color: t($main-heading);
+      }
+      font-size: 3em;
+      font-weight: 700;
+      padding-top: 2em;
+      padding-bottom: 0.5em;
+      text-align: center;
+      display: block;
     }
     img {
 	    -webkit-animation: shake-vertical 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;

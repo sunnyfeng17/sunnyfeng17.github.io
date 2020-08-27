@@ -39,11 +39,13 @@
         height: 3em;
         @include themed() {
             background-color: t($button-background);
+            border-color: t($button-background);
             color: t($button-text);
         }
         &:hover {
             @include themed() {
                 background-color: t($button-background-hover);
+                border-color: t($button-background-hover);
                 color: t($button-text-hover);
             }
         }

@@ -104,7 +104,7 @@ class Contact extends React.Component {
                 required
               />
             </FormGroup>
-            <Button variant="primary" type="submit">
+            <Button variant="primary" className="btn-submit" type="submit">
               Submit
             </Button>
           </Form> 

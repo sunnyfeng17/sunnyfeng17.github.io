@@ -4,7 +4,7 @@ import { Layout, Row} from 'antd';
 
 import './EasterEgg.scss'
 
-import tardisTravel from '../../images/tardistravel.jpg';
+import tardisTravel from '../../images/easter-egg/tardistravel.jpg';
 
 const { Content } = Layout;
 

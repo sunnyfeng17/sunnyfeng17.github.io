@@ -11,13 +11,13 @@ class LandingPage extends React.Component {
   render() {
     return (
       <div className="landing-container">
-        <Link to="/home">
+        <Link to="/home" className="continue-link">
           <div className="vertical-center landing-box">
             <Row>
               <Col span={24}>
                 <SunnySVG className="handwriting-effect" type="flex"/>
                 <br></br>
-                <Link to="/home"><ContinueSVG className="continue-button"/></Link>
+                <ContinueSVG className="continue-button"/>
               </Col>
             </Row>
           </div>

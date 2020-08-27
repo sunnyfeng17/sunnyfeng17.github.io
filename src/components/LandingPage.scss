@@ -10,6 +10,9 @@
     -moz-animation: AnimationName 7s ease infinite;
     -o-animation: AnimationName 7s ease infinite;
     animation: AnimationName 7s ease infinite;
+    .continue-link {
+        cursor: default;
+    }
 }
 
 .landing-box {

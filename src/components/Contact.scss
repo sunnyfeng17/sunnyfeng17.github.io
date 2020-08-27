@@ -1,4 +1,4 @@
-@import "../utilities/variables";
+@import "../utilities/themes";
 
 .contact-container {
     padding-top: 7em;
@@ -45,7 +45,7 @@
         &:hover {
             @include themed() {
                 background-color: t($button-background-hover);
-                border-color: t($button-background-hover);
+                border-color: t($button-background);
                 color: t($button-text-hover);
             }
         }

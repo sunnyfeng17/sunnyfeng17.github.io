@@ -28,6 +28,13 @@
     }
 }
 
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .theme-toggle {
+        margin: 2.2em 8em 0em 0em;
+    }
+}
+
 .vertical-center {
     padding: 0em 2em 0em 2em;
     min-height: 80%;

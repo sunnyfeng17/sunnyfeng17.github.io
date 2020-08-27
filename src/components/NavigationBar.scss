@@ -54,3 +54,27 @@
     }
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        .ml-auto {
+            margin-right: 0em;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        .ml-auto {
+            margin-right: 0em;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .navbar {
+        .ml-auto {
+            margin-right: 0em;
+        }
+    }
+}
+

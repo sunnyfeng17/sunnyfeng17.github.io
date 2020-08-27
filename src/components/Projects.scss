@@ -14,6 +14,24 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .project-grid {
+        max-width: 20em;
+    }
+}
+
+@media only screen and (min-width: 570px) and (max-width: 840px) {
+    .project-grid {
+        max-width: 40em;
+    }
+}
+
+@media only screen and (min-width: 840px) and (max-width: 1120px) {
+    .project-grid {
+        max-width: 60em;
+    }
+}
+
 .project-card {
     height: 20em;
     width: 20em;
@@ -87,14 +105,3 @@
     background-size: cover;
 }
 
-@media (max-width: 768px) {
-    .project-grid {
-        max-width: 20em;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .project-grid {
-        max-width: 70em;
-    }
-}

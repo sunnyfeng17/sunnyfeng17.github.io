@@ -45,7 +45,7 @@
         &:hover {
             @include themed() {
                 background-color: t($button-background-hover);
-                border-color: t($button-background);
+                border-color: t($button-background-hover);
                 color: t($button-text-hover);
             }
         }

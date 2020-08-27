@@ -123,10 +123,10 @@
 }
 
 .continue-button:hover {
-    cursor: url('../images/doIt.png'), auto;
+    cursor: url('../images/bitmoji/doIt.png'), auto;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .continue-button {
         width: 10em;
     }

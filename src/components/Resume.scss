@@ -28,7 +28,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .resume-container {
         img {
             height: 40em;

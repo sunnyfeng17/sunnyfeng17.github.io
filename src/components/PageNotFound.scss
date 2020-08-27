@@ -23,7 +23,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .page-not-found-container {
         h1 {
             display: None;

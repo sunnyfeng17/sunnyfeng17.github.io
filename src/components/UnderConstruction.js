@@ -3,7 +3,7 @@ import { Layout} from 'antd';
 import { Link } from 'react-router-dom';
 import './UnderConstruction.scss';
 
-import underConstruction  from '../images/construction.png';
+import underConstruction  from '../images/bitmoji/construction.png';
 
 const { Content } = Layout;
 

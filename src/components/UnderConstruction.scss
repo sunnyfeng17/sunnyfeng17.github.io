@@ -22,7 +22,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .construction-text { 
         font-size: 1.5em;
     }

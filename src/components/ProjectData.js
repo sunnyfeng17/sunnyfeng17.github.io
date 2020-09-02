@@ -74,7 +74,7 @@ const ProjectData = [
     lessons: ['How to use git collaboratively', 'How to do market validation'],
     contributions: ['Front-end development - I created the Landing, Explore Timetables and the Instructor Page'],
     github: 'https://github.com/rtan265/learnFromAKiwi',
-    website: 'https://learnfromakiwi.github.io',
+    website: 'https://learn-from-a-kiwi.netlify.app',
     mockup: require('../images/mockups/learnfromakiwi.jpg')
   },
   { 

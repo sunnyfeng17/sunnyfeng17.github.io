@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.b6201150.css",
-    "main.js": "/static/js/main.3c4a4e9a.js",
+    "main.js": "/static/js/main.07c278e0.js",
     "static/media/kafe-krayon.mp4": "/static/media/kafe-krayon.4e29ad733b7bd1287a68.mp4",
     "static/media/tetris.mp4": "/static/media/tetris.2b7417472770478c579e.mp4",
     "static/media/scammr.mp4": "/static/media/scammr.a367ccb0cec22b064663.mp4",
     "static/media/money-busters.mp4": "/static/media/money-busters.256f493706e38674c084.mp4",
     "static/media/learnfromakiwi.mp4": "/static/media/learnfromakiwi.9be20debc1c288bf8c41.mp4",
     "static/media/timeline.mp4": "/static/media/timeline.a5551e886f9c86386655.mp4",
-    "static/media/resume.jpg": "/static/media/resume.d68711d8116947d3f899.jpg",
     "static/media/upskill.mp4": "/static/media/upskill.aa09f6f46914d319a10e.mp4",
     "static/media/eventigate-card.jpg": "/static/media/eventigate-card.e2176e55bb415870ae10.jpg",
     "static/media/home.jpg": "/static/media/home.ec39bf0a99270c217c39.jpg",
     "static/media/eventigate.mp4": "/static/media/eventigate.cbcda3d7538394b8b6e2.mp4",
     "static/media/personal-website.mp4": "/static/media/personal-website.157242c38151cc2bfc81.mp4",
+    "static/media/resume.jpg": "/static/media/resume.99144fb551223483607c.jpg",
     "static/media/IMG_12.JPG": "/static/media/IMG_12.09a790021985fb5ee951.JPG",
     "static/media/kafe-krayon-card.jpg": "/static/media/kafe-krayon-card.574230744f89328ee0dd.jpg",
     "static/media/IMG_10.JPG": "/static/media/IMG_10.b1a506bc1b774b643831.JPG",
@@ -65,10 +65,10 @@
     "static/media/lm-hamburger.svg": "/static/media/lm-hamburger.bc0ad536aaa72cfe0ff813bc9f493327.svg",
     "static/media/continue.svg": "/static/media/continue.074030edc1c2ae1ce04275fcab3ace73.svg",
     "main.b6201150.css.map": "/static/css/main.b6201150.css.map",
-    "main.3c4a4e9a.js.map": "/static/js/main.3c4a4e9a.js.map"
+    "main.07c278e0.js.map": "/static/js/main.07c278e0.js.map"
   },
   "entrypoints": [
     "static/css/main.b6201150.css",
-    "static/js/main.3c4a4e9a.js"
+    "static/js/main.07c278e0.js"
   ]
 }

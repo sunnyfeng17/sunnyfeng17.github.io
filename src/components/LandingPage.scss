@@ -2,7 +2,7 @@
 
 .landing-container {
     @include themed() {
-        background: linear-gradient(131deg, t($gradient-start), t($gradient-end));
+        background: linear-gradient(-35deg, rgba(208,166,255,1) 14%, rgba(0,212,255,1) 49%, rgba(191,255,221,1) 77%);
     }
     height: 100vh;
     text-align: center;

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Layout } from 'antd';
-
-import './Resume.scss';
+import '../css/main.scss';
 
 import ResumeImg from '../images/resumes/resume.jpg'
 

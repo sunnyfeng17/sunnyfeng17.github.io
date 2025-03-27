@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout} from 'antd';
 import { Link } from 'react-router-dom';
-import './UnderConstruction.scss';
+import '../css/UnderConstruction.scss';
 
 import underConstruction  from '../images/bitmoji/construction.png';
 

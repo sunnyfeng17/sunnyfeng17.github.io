@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { GithubFilled, ArrowLeftOutlined, GlobalOutlined } from '@ant-design/icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import './Project.scss';
+import '../css/Project.scss';
 
 const { Content } = Layout;
 

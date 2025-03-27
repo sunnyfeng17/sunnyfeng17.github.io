@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.aaac20d8.css",
+    "main.css": "/static/css/main.b6201150.css",
     "main.js": "/static/js/main.3c4a4e9a.js",
     "static/media/kafe-krayon.mp4": "/static/media/kafe-krayon.4e29ad733b7bd1287a68.mp4",
     "static/media/tetris.mp4": "/static/media/tetris.2b7417472770478c579e.mp4",
@@ -64,11 +64,11 @@
     "static/media/dm-hamburger.svg": "/static/media/dm-hamburger.30cf9da7beef9fb5583ee2d8f7dc1e06.svg",
     "static/media/lm-hamburger.svg": "/static/media/lm-hamburger.bc0ad536aaa72cfe0ff813bc9f493327.svg",
     "static/media/continue.svg": "/static/media/continue.074030edc1c2ae1ce04275fcab3ace73.svg",
-    "main.aaac20d8.css.map": "/static/css/main.aaac20d8.css.map",
+    "main.b6201150.css.map": "/static/css/main.b6201150.css.map",
     "main.3c4a4e9a.js.map": "/static/js/main.3c4a4e9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaac20d8.css",
+    "static/css/main.b6201150.css",
     "static/js/main.3c4a4e9a.js"
   ]
 }

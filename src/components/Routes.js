@@ -1,17 +1,17 @@
 
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import LandingPage from "./LandingPage";
-import Home from './Home';
-import Projects from './Projects';
-import Project from './Project';
-import Photography from './Photography';
-import Playground from './Playground';
-import Resume from './Resume';
-import Contact from './Contact';
+import LandingPage from "../pages/LandingPage";
+import Home from '../pages/Home';
+import Projects from '../pages/Projects';
+import Project from '../pages/Project';
+import Photography from '../pages/Photography';
+import Playground from '../pages/Playground';
+import Resume from '../pages/Resume';
+import Contact from '../pages/Contact';
 import StartEasterEgg from './EasterEgg/StartEasterEgg';
 import SpaceTravel from './EasterEgg/SpaceTravel';
-import PageNotFound from './PageNotFound';
+import PageNotFound from '../pages/PageNotFound';
 
 class Routes extends React.Component {
     render() {

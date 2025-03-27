@@ -1,8 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Layout, Row, Col } from 'antd';
-
-import './Photography.scss';
+import '../css/main.scss';
 
 import PhotographyImages from './PhotographyImages';
 

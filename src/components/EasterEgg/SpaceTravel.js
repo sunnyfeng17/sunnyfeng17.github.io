@@ -1,8 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import { Layout, Row} from 'antd';
-
-import './EasterEgg.scss'
+import '../../css/EasterEgg.scss'
 
 import tardisTravel from '../../images/easter-egg/tardistravel.jpg';
 

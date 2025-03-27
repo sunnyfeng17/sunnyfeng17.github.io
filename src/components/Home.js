@@ -16,9 +16,11 @@ class Home extends React.Component {
             <img src={ homeImg } alt="Sunny"/>
           </Col>
           <Col xs={24} sm={14}>
-            <h2>Hello World!</h2>
+            <h2>Hello World 👋</h2>
             <h3>My name is Sunny Feng</h3>
-            <h4>I'm a recent Computer Science graduate who also has a passion for design!</h4>
+            <p>I’m an iOS engineer with a Computer Science degree from the University of Auckland. I’m passionate about finding creative solutions and blending them with beautiful, intuitive, and user-friendly experiences.</p>
+            <p>Outside of work, you’ll find me spending time with friends, snowboarding, bouldering, or enjoying a game of badminton.</p>
+            <p>I’m always on the lookout for new opportunities to apply my passion for product, design, frontend development, and to continue learning!</p>
           </Col>
         </Row>
       </Content> 

@@ -7,7 +7,7 @@ import Projects from '../pages/Projects';
 import Project from '../pages/Project';
 import Photography from '../pages/Photography';
 import Playground from '../pages/Playground';
-import Resume from '../pages/Resume';
+import Experience from '../pages/Experience';
 import Contact from '../pages/Contact';
 import StartEasterEgg from './EasterEgg/StartEasterEgg';
 import SpaceTravel from './EasterEgg/SpaceTravel';
@@ -23,7 +23,7 @@ class Routes extends React.Component {
                 <Route path='/project/:id' component={ Project } />
                 <Route path="/photography" component={ Photography } />
                 <Route path="/playground" component={ Playground } />
-                <Route path="/resume" component={ Resume } />
+                <Route path="/experience" component={ Experience } />
                 <Route path="/contact" component={ Contact } />
                 <Route path="/tardis" component={ StartEasterEgg } />
                 <Route path="/spacetravel" component={ SpaceTravel } />

@@ -14,7 +14,6 @@
 
 .photography-container {
     padding-top: 7em;
-
     .gallery {
         max-width: 90%;
         margin: auto;
@@ -32,12 +31,11 @@
 
 .resume-container {
     padding-top: 7em;
+    max-width: 90%;
+    margin: auto;
+
     h1 {
         margin-bottom: 0em;
-    }
-    img {
-        height: 60em;
-        padding-bottom: 3em;
     }
     a {
         @include themed() {
@@ -55,6 +53,39 @@
         @include themed() {
             color: t($main-paragraph);
         }
+    }
+
+    .experience-row {
+        text-align: left;
+        align-items: center;
+        background-color: white;
+        margin: 5vh;
+        padding: 2vh;
+        box-shadow: 3px 3px 15px 3px rgba(255, 255, 255, 0.8);
+        border-radius: 5vh;
+        .company-logo {
+            padding: 5vh;
+            width: 20vw;
+            height: auto;
+        }
+        h1 {
+            font-size: 2em;
+            padding: 0 0 0.5em 0;
+        }
+        h2 {
+            font-size: 1em;
+            font-weight: 300;
+            padding: 0 0 0.5em 0;
+        }
+        p {
+            color: #000000;
+            padding: 0;
+        }
+    }
+    .skills {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -132,7 +163,6 @@
         padding-right: 1em;
     }
 }
-
 
 @media only screen and (max-width: 768px) {
     .home-container {
@@ -216,4 +246,6 @@
     }
 }
 
-
+.small-gap-bottom {
+    padding-bottom: 1em;
+}

@@ -2,7 +2,6 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import NavigationBar from './components/NavigationBar';
 import Routes from './components/Routes';
-import 'antd/dist/antd.css';
 import './css/App.scss';
 
 import { library } from '@fortawesome/fontawesome-svg-core'

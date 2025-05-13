@@ -15,7 +15,7 @@ const links = [
   { link: "/projects/", text:"Projects" },
   { link: "/photography/", text:"Photography" },
   { link: "/playground/", text:"Playground" },
-  { link: "/resume/", text:"Resume" },
+  { link: "/experience/", text:"Experience" },
   { link: "/contact/", text:"Contact" }
 ];
 const exlinks = [

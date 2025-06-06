@@ -23,7 +23,7 @@ const ExperienceRow = ({ image, position, date, company, desc, techskills, softs
         <h2>{date}</h2>
         <p>{desc}</p>
         <div>
-          { techskills.length != 0 &&
+          { techskills.length !== 0 &&
             <>
               <p>👩‍💻</p>
               <Flex wrap gap="small" className="small-gap-bottom">
@@ -36,7 +36,7 @@ const ExperienceRow = ({ image, position, date, company, desc, techskills, softs
             </>
             }
           
-          { softskills.length != 0 &&
+          { softskills.length !== 0 &&
             <>
               <p>🤝</p>
               <Flex wrap gap="small">

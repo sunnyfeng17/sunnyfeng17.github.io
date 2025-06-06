@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6201150.css",
-    "main.js": "/static/js/main.07c278e0.js",
+    "main.css": "/static/css/main.cf0c85a7.css",
+    "main.js": "/static/js/main.8023bc0b.js",
     "static/media/kafe-krayon.mp4": "/static/media/kafe-krayon.4e29ad733b7bd1287a68.mp4",
     "static/media/tetris.mp4": "/static/media/tetris.2b7417472770478c579e.mp4",
     "static/media/scammr.mp4": "/static/media/scammr.a367ccb0cec22b064663.mp4",
     "static/media/money-busters.mp4": "/static/media/money-busters.256f493706e38674c084.mp4",
     "static/media/learnfromakiwi.mp4": "/static/media/learnfromakiwi.9be20debc1c288bf8c41.mp4",
     "static/media/timeline.mp4": "/static/media/timeline.a5551e886f9c86386655.mp4",
+    "static/media/gradplushies.png": "/static/media/gradplushies.f1a7ef206bbe62089b5b.png",
     "static/media/upskill.mp4": "/static/media/upskill.aa09f6f46914d319a10e.mp4",
     "static/media/eventigate-card.jpg": "/static/media/eventigate-card.e2176e55bb415870ae10.jpg",
     "static/media/home.jpg": "/static/media/home.ec39bf0a99270c217c39.jpg",
     "static/media/eventigate.mp4": "/static/media/eventigate.cbcda3d7538394b8b6e2.mp4",
     "static/media/personal-website.mp4": "/static/media/personal-website.157242c38151cc2bfc81.mp4",
-    "static/media/resume.jpg": "/static/media/resume.99144fb551223483607c.jpg",
     "static/media/IMG_12.JPG": "/static/media/IMG_12.09a790021985fb5ee951.JPG",
     "static/media/kafe-krayon-card.jpg": "/static/media/kafe-krayon-card.574230744f89328ee0dd.jpg",
     "static/media/IMG_10.JPG": "/static/media/IMG_10.b1a506bc1b774b643831.JPG",
@@ -34,6 +34,7 @@
     "static/media/tardis.jpg": "/static/media/tardis.2393df5a51e5c375e5f1.jpg",
     "static/media/IMG_15.JPG": "/static/media/IMG_15.8ecec2bc9ff3bd5dd5b6.JPG",
     "static/media/IMG_5.JPG": "/static/media/IMG_5.b3d939a1181c752dee70.JPG",
+    "static/media/sss.png": "/static/media/sss.44d1202646b08ce94aff.png",
     "static/media/IMG_17.JPG": "/static/media/IMG_17.d934531fb2048823396e.JPG",
     "static/media/personal-website-card.jpg": "/static/media/personal-website-card.cc1686f9c67a18b48910.jpg",
     "static/media/tardistravel.jpg": "/static/media/tardistravel.21c05f728160a01133c2.jpg",
@@ -52,11 +53,13 @@
     "static/media/IMG_2.JPG": "/static/media/IMG_2.9db6b44f6e5ae65711a7.JPG",
     "static/media/task-manager-card.jpg": "/static/media/task-manager-card.6e05df7923ee281c6f25.jpg",
     "static/media/moving-shapes-card.jpg": "/static/media/moving-shapes-card.7087947fe0783dbdd58a.jpg",
+    "static/media/uoa.png": "/static/media/uoa.2d8e3c3a2156a94243c7.png",
     "static/media/looking.png": "/static/media/looking.18917d7444a510749033.png",
     "static/media/sunnyfeng-w.png": "/static/media/sunnyfeng-w.69f66c38100245da5dc6.png",
     "static/media/construction.png": "/static/media/construction.a5b8094bc9dad9b0e584.png",
     "static/media/sunnyfeng-b.png": "/static/media/sunnyfeng-b.120d19d58e72c0e48409.png",
     "static/media/doIt.png": "/static/media/doIt.330e311c2a6b6db27c47.png",
+    "static/media/xero.png": "/static/media/xero.e1c107c2422581dc53fd.png",
     "static/media/sunnyfeng.svg": "/static/media/sunnyfeng.7f01ceb5286a123118eaf53aed968400.svg",
     "static/media/sun.svg": "/static/media/sun.697740e03d357a05f74beb4cbc53a7da.svg",
     "index.html": "/index.html",
@@ -64,11 +67,11 @@
     "static/media/dm-hamburger.svg": "/static/media/dm-hamburger.30cf9da7beef9fb5583ee2d8f7dc1e06.svg",
     "static/media/lm-hamburger.svg": "/static/media/lm-hamburger.bc0ad536aaa72cfe0ff813bc9f493327.svg",
     "static/media/continue.svg": "/static/media/continue.074030edc1c2ae1ce04275fcab3ace73.svg",
-    "main.b6201150.css.map": "/static/css/main.b6201150.css.map",
-    "main.07c278e0.js.map": "/static/js/main.07c278e0.js.map"
+    "main.cf0c85a7.css.map": "/static/css/main.cf0c85a7.css.map",
+    "main.8023bc0b.js.map": "/static/js/main.8023bc0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6201150.css",
-    "static/js/main.07c278e0.js"
+    "static/css/main.cf0c85a7.css",
+    "static/js/main.8023bc0b.js"
   ]
 }
